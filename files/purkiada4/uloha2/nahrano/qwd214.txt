@@ -1,0 +1,86 @@
+qwd214
+---------
+*** hvezdice
+clean
+home
+right 45
+forward 100
+penup
+left 180
+forward 100
+pendown
+forward 100
+penup
+right 180
+forward 100
+right 45
+forward 100
+left 180
+pendown
+forward 200
+penup
+right 180
+forward 100
+left 90
+forward 100
+left 180
+pendown
+forward 200
+penup
+left 180
+forward 100
+left 45
+forward 100
+right 180
+pendown
+forward 200
+
+*** schody
+right 90
+forward 50
+right 90
+forward 50
+repeat 2 [ left 90 forward 50 right 90 forward 50 ]
+*** kriz
+penup
+forward 100
+pendown
+right 90
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+left 180
+penup
+forward 50
+pendown
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+left 180
+left 90
+forward 50
+penup
+forward 50
+pendown
+right 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50

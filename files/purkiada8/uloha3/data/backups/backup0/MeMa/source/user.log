@@ -1,0 +1,6 @@
+2017-01-26 11:36:45 -> User MeMa logged in.
+2017-01-26 11:38:13 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 11:38:13 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 11:39:00 -> Handled Command "help"
+2017-01-26 11:39:32 -> Handled Command "network --help"
+2017-01-26 11:41:06 -> Handled Command "network --status"

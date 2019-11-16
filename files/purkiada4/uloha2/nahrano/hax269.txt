@@ -1,0 +1,71 @@
+hax269
+---------
+*** hvezdice
+
+repeat 2 [
+  forward 100
+  home
+]
+right 180
+
+repeat 2 [
+  forward 100
+  home
+]
+
+repeat 3 [
+  right 45
+  forward 100
+  home
+]
+
+right 45
+
+repeat 3 [
+  right 45
+  forward 100
+  home
+]
+*** schody
+repeat 2 [
+  right 90
+  forward 50
+]
+
+
+repeat 2 [
+  left 90
+  forward 50
+  right 90
+  forward 50
+]
+*** kriz
+repeat 4 [
+  forward 100
+  right 90
+]
+
+left 90
+
+repeat 4 [
+  forward 100
+  left 90
+]
+
+right 180
+forward 100
+
+repeat 4 [
+  forward 100
+  right 90
+]
+
+repeat 2 [
+ right 90
+ forward 100
+]
+
+repeat 3 [
+ left 90
+ forward 100
+]

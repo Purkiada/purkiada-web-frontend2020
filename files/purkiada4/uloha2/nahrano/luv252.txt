@@ -1,0 +1,63 @@
+luv252
+---------
+*** hvezdice
+fd 100
+bk 200
+fd 100
+lt 45
+fd 100
+bk 200
+fd 100
+lt 90
+fd 100
+bk 200
+home
+*** schody
+pu
+fd 150
+lt 90
+fd 150
+rt 180
+pd
+fd 80
+rt 90
+fd 65
+lt 90
+fd 80
+rt 90
+fd 65
+lt 90
+fd 80
+rt 90
+fd 65
+
+*** kriz
+pu
+lt 90
+fd 30
+pd
+fd 70
+rt 90
+fd 70
+rt 90
+fd 70
+lt 90
+fd 70
+rt 90 
+fd 70
+rt 90
+fd 140
+lt 90
+fd 70
+lt 90
+fd 70
+lt 90
+fd 140
+lt 90
+fd 140
+lt 90
+fd 70
+lt 90
+fd 70
+lt 90
+fd 70

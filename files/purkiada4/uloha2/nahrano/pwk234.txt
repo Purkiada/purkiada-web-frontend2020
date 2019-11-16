@@ -1,0 +1,15 @@
+pwk234
+---------
+*** hvezdice
+
+*** schody
+clean
+home
+left90
+forward 100
+left90
+forward 100
+left90
+forward 100
+*** kriz
+

@@ -1,0 +1,98 @@
+qma275
+---------
+*** hvezdice
+clean
+home
+left 90
+forward 100
+right 180
+forward 100
+left 90
+forward 100
+right 180
+forward 100
+forward 100
+left 180
+forward 100
+right 90
+forward 100
+left 180
+forward 100
+right 45
+forward 100
+right 180
+forward 100
+right 100
+right 100
+right 100
+left 75
+right 90
+left 45
+forward 100
+right 180
+forward 100
+forward 100
+right 180
+forward 100
+right 90
+forward 100
+
+*** schody
+clean
+home
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 180
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+*** kriz
+clean
+home
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 180
+forward 100
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+forward 100
+right 90
+forward 100
+right 90
+forward 100

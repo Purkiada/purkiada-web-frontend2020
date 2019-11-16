@@ -1,0 +1,50 @@
+nqr206
+---------
+*** hvezdice
+pendown
+forward 100
+back 50
+right 90
+forward 75
+back 150
+forward 75
+right 45
+forward 50
+back 100
+forward 50
+right 90
+forward 50
+back 100
+*** schody
+right 90
+pendown
+repeat 3 [ 
+forward 50
+right 90
+forward 50
+left 90
+]
+
+*** kriz
+pendown
+repeat 2 [  
+forward 150
+left 90
+forward 50
+left 90
+]
+
+  
+forward 50
+right 90
+
+repeat 2 [  
+forward 50
+left 90
+]
+
+forward 150
+left 90
+forward 50
+left 90
+forward 100

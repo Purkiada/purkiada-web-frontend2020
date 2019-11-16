@@ -1,0 +1,46 @@
+tbh226
+---------
+*** hvezdice
+
+fd 100
+bk 200
+fd 100
+rt 90
+fd 100
+bk 200
+fd 100
+rt 45
+fd 100
+bk 200
+fd 100
+rt 90
+fd 100
+bk 200
+
+
+*** schody
+
+rt 90
+fd 50
+rt 90
+fd 50
+lt 90
+fd 50
+rt 90
+fd 50
+lt 90
+fd 50
+rt 90
+fd 50
+
+*** kriz
+
+repeat 4 [fd 50 ,rt 90]
+fd 50
+repeat 4[fd 50 ,rt 90]
+bk 100
+repeat 4[fd 50 ,rt 90]
+fd 50 lt 90
+repeat 4[fd 50 ,rt 90]
+bk 50 rt 90
+repeat 4[fd 50 ,rt 90]

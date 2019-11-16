@@ -1,0 +1,59 @@
+qku255
+---------
+*** hvezdice
+forward 100
+home
+right 45
+forward 100
+home
+right 45
+forward 100
+home
+right 45
+forward 100
+home
+right 45
+forward 100
+home
+right 45
+forward 100
+home
+right 45
+forward 100
+home
+right 45
+forward 100
+
+*** schody
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+*** kriz
+forward 20
+right 90
+forward 20
+right 90
+forward 60
+right 90
+forward 20
+right 90
+forward 40
+left 90
+forward 20
+left 90
+forward 20
+left 90
+forward 60
+left 90
+forward 20
+left 90
+forward 40

@@ -1,0 +1,2 @@
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/06/03 07:14:51
+XY=DATA=00student 2017/06/03 07:14:53

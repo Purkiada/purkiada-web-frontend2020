@@ -1,0 +1,45 @@
+/* CSS Document */
+body {
+  color: green;
+  font-style: Consolas;
+  background-color: yellow;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div {
+  border-color: yellow;
+  width: 1024px;
+  text-align: center;
+  margin: auto;
+  padding: 2px;
+}
+
+.level{
+  
+}
+
+.main{
+  border-style: solid;
+  border-width: 4px;
+}
+
+.add {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: yellow;
+  width: 800px;
+}
+
+span.authority{
+  text-align: right;
+  color: yellow;
+}
+
+.yolopowa {
+  color: green;
+  font-style: Consolas;
+  background-color: yellow;
+}

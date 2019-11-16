@@ -1,0 +1,3 @@
+2017-01-27 13:01:30 -> User mode.test.pokemon logged in.
+2017-01-27 13:01:32 -> Handled EnvironmentCreate "ship:user"
+2017-01-27 13:01:32 -> Handled GetWelcomeText of "user@ship"

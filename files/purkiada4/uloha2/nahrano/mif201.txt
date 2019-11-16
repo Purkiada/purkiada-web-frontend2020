@@ -1,0 +1,50 @@
+mif201
+---------
+*** hvezdice
+clean
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 45
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 200
+*** schody
+right 90
+forward 50
+right 90
+forward 50
+repeat 2 [ left 90
+forward 50
+right 90
+forward 50]
+*** kriz
+repeat 2 [ forward 150
+left 90
+forward 50
+left 90]
+forward 50
+left 90
+forward 100
+right 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50
+right 90
+forward 50

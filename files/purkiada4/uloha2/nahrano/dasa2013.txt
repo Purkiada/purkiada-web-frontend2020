@@ -1,0 +1,73 @@
+dasa2013
+---------
+*** hvezdice
+clean 
+home 
+forward 100
+back 200
+forward 100
+right 90
+forward 100
+back 200
+forward 100
+right 45
+forward 100
+back 200
+forward 100
+right 90
+forward 100
+back 200
+*** schody
+penup 
+forward 100
+left 90
+forward 100
+pendown
+back 50
+left 90
+forward 50
+right 90
+back 50
+right 90
+back 50
+left 90
+back 50
+left 90
+forward 50
+*** kriz
+forward 50
+right 90
+forward 50
+left 90
+back 50
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+back 50
+penup
+back 50
+pendown
+back 50
+left 90
+back 50
+left 90
+back 50
+penup
+left 90
+back 50
+pendown
+back 50
+left 90
+forward 50
+left 90
+back 50

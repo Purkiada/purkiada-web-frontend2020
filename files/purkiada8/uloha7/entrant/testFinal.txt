@@ -1,0 +1,3 @@
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/25 10:23:40
+SBIRANI=USRDESTROYED=Uzivatel byl znicen | student 2017/01/25 10:23:55
+XY=DATA=00student 2017/01/25 10:23:58

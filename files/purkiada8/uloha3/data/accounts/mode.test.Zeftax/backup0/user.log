@@ -1,0 +1,12 @@
+2018-01-13 17:09:55 -> User mode.test.Zeftax logged in.
+2018-01-13 17:09:58 -> Handled EnvironmentCreate "ship:user"
+2018-01-13 17:09:58 -> Handled GetWelcomeText of "user@ship"
+2018-01-13 17:11:30 -> Handled Command "help"
+2018-01-13 17:11:59 -> Handled Command "network"
+2018-01-13 17:12:11 -> Handled Command "network --help"
+2018-01-13 17:12:19 -> Handled Command "network --status"
+2018-01-13 17:12:39 -> Handled Command "network --connect"
+2018-01-13 17:12:57 -> Handled Command "network --connect  DeathStar"
+2018-01-13 17:14:47 -> Handled Command "network --status"
+2018-01-13 17:16:24 -> Handled Command "ssh deathstar"
+2018-01-13 17:16:35 -> Handled Command "ssh DeathStar"

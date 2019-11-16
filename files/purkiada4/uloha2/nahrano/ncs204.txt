@@ -1,0 +1,72 @@
+ncs204
+---------
+*** hvezdice
+clean
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 45
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+
+*** schody
+clean
+penup
+   forward 100
+   left 90
+forward 100
+ left 180
+   pendown
+  forward 100
+      right 90
+forward 100
+  left 90
+forward 100
+ right 90
+forward 100
+ left 90
+forward 100
+right 90
+forward 100
+
+*** kriz
+
+
+clean
+forward 100
+right 90
+forward 100
+right 90
+forward 300
+right 90
+forward 100
+right 90
+forward 200
+right 90
+forward 200
+right 90
+forward 100
+right 90
+forward 300
+right 90
+forward 100
+right 90
+forward 100
+

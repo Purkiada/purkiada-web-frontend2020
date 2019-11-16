@@ -1,0 +1,9 @@
+2018-01-07 18:31:30 -> User mode.test.testppp logged in.
+2018-01-07 18:31:37 -> Handled EnvironmentCreate "ship:user"
+2018-01-07 18:31:37 -> Handled GetWelcomeText of "user@ship"
+2018-01-07 18:31:57 -> Handled Command "network"
+2018-01-07 18:32:03 -> Handled Command "help"
+2018-01-07 18:32:16 -> Handled Command "network"
+2018-01-07 18:32:28 -> Handled Command "Network"
+2018-01-07 18:32:31 -> Handled Command "pwd"
+2018-01-07 18:32:37 -> Handled Command "cp"

@@ -1,0 +1,71 @@
+wpm228
+---------
+*** hvezdice
+cs
+fd 100
+fd 50
+back 300
+fd 150
+left 45
+fd 150
+back 150
+left 45
+fd 150
+back 150
+left 45 
+fd 150
+back 150
+left 90
+fd 150
+back 150
+left 45
+fd 150
+back 150
+left 45
+fd 150
+*** schody
+cs
+pu
+fd 150
+left 90
+fd 150
+fd 50
+lt 180
+pd
+fd 100
+right 90
+fd 100
+left 90
+fd 100
+right 90
+fd 100
+left 90
+fd 100
+right 90
+fd 100
+
+*** kriz
+cs
+lt 90
+fd 200
+lt 180
+fd 300
+rt 90
+fd 100
+rt 90
+fd 300
+rt 90
+fd 100
+rt 90
+fd 100
+lt 90
+fd 100
+rt 90
+fd 100
+rt 90
+fd 100
+fd 200
+rt 90
+fd 100
+rt 90
+fd 100

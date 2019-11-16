@@ -1,0 +1,5 @@
+2017-01-26 10:33:43 -> User SaPo logged in.
+2017-01-26 10:35:54 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 10:35:54 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 10:37:47 -> Handled Command "bash --help"
+2017-01-26 10:39:57 -> Handled Command "help"

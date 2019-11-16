@@ -1,0 +1,73 @@
+body {
+	background-color: azure;
+}
+.nav {
+	background-color: dimgray;
+}
+.nav li:hover {
+	background-color: darkgray;
+}
+.nav h1 {
+	color: lawngreen;
+}
+.form {
+	text-align: center;
+	margin-top: 20px;
+}
+.button {
+	margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+}
+.buttonAnimated {
+	margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    transition: all .3s;
+    cursor: hand;
+}
+.buttonAnimated:hover {
+    background: white;
+    color: black;
+}
+.text {
+	width: 60%;
+	border: 2px solid lightgrey;
+	padding: 10px;
+	margin: 30px auto 0px auto;
+	box-shadow: 5px 5px 5px grey;
+	background-color: white;
+}
+.textbox {
+	border: 2px solid grey;
+	font-size: 18px;
+	padding: 5px;
+}
+.textAuthor {
+	color: grey;
+}
+.purkiadalogin {
+	width: 100%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+}
+.toolbar {
+	width: 100%;
+	height: 30px;
+	background: lightgrey;
+	position: fixed;
+	border-bottom: 1px solid grey;
+}
+.toolbar-text {
+	margin-left: 10px;
+	line-height: 30px;
+}
+.toolbar-button {
+	padding: 2px;
+	margin-left: 5px;
+}

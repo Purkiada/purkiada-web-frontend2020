@@ -1,0 +1,13 @@
+2018-01-14 22:37:41 -> User mode.test.Destt logged in.
+2018-01-14 22:37:46 -> Handled EnvironmentCreate "ship:user"
+2018-01-14 22:37:46 -> Handled GetWelcomeText of "user@ship"
+2018-01-14 22:37:58 -> Handled Command "network"
+2018-01-14 22:38:10 -> Handled Command "network"
+2018-01-14 22:38:29 -> Handled Command "--help"
+2018-01-14 22:38:31 -> Handled Command "help"
+2018-01-14 22:38:34 -> Handled Command "network"
+2018-01-14 22:38:39 -> Handled Command "network --help"
+2018-01-14 22:38:43 -> Handled Command "network --status"
+2018-01-14 22:38:49 -> Handled Command "network --connect ship"
+2018-01-14 22:38:56 -> Handled Command "network --connect DeathStar"
+2018-01-14 22:39:00 -> Handled Command "network"

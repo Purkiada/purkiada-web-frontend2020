@@ -1,0 +1,70 @@
+hdf179
+---------
+*** hvezdice
+clean
+home
+forward 100
+back 100
+left 90
+forward 100
+back 200
+forward 100
+left 90
+forward 100
+back 100
+left 45
+forward 100
+back 200
+forward 100
+left 90
+forward 100
+back 200
+forward 100
+
+*** schody
+penup
+left 90
+forward 200
+right 90
+forward 100
+right 90
+pendown
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+
+*** kriz
+back 100
+right 90
+forward 100
+left 90
+forward 300
+left 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 90 
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+home
+forward 200
+left 90
+forward 100
+left 90
+forward 100
+

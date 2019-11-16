@@ -1,0 +1,17 @@
+2017-01-26 10:27:25 -> User IvCh logged in.
+2017-01-26 10:29:15 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 10:29:15 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 10:30:19 -> Handled Command "network"
+2017-01-26 10:30:30 -> Handled Command "--help"
+2017-01-26 10:31:35 -> Handled Command "bash --help"
+2017-01-26 10:34:17 -> Handled Command "--network"
+2017-01-26 10:34:37 -> Handled Command "-network"
+2017-01-26 10:34:55 -> Handled Command "bash --diff"
+2017-01-26 10:35:55 -> Handled Command "<network>"
+2017-01-26 10:36:01 -> Handled Command "--help"
+2017-01-26 11:24:49 -> User IvCh logged in.
+2017-01-26 11:24:49 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 11:24:49 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 11:25:12 -> Handled Command "bash --help"
+2017-01-26 11:25:26 -> Handled Command "revert-time"
+2017-01-26 11:25:46 -> Handled Command "-f"

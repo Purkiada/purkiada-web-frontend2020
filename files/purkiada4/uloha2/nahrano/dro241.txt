@@ -1,0 +1,25 @@
+dro241
+---------
+*** hvezdice
+forward 100
+home
+back 100
+home
+right 90
+forward 100
+back 200
+home
+right 45
+forward 100
+back 200
+home
+left 90
+forward 100
+back 200
+home
+left 45
+forward 100
+*** schody
+
+*** kriz
+

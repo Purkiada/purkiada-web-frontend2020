@@ -1,0 +1,10 @@
+2017-01-26 10:06:26 -> User MuCa logged in.
+2017-01-26 10:09:08 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 10:09:08 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 10:11:07 -> Handled Command "bash --help"
+2017-01-26 10:13:24 -> Handled Command "pwd¨"
+2017-01-26 10:13:27 -> Handled Command "pwd"
+2017-01-26 10:14:02 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 10:14:02 -> Handled Command "bash"
+2017-01-26 10:46:44 -> Handled Command "bas --dif"
+2017-01-26 10:46:54 -> Handled Command "bash --diff"

@@ -1,0 +1,69 @@
+hqm254
+---------
+*** hvezdice
+clean
+forward 100
+home
+back 100
+home
+left 90
+forward 100
+home
+right 180
+forward 100
+home
+left 45
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+*** schody
+penup
+left 90
+forward 50
+right 90
+forward 50
+pendown
+forward 50
+left 90
+forward 50
+home
+right 90
+forward 50
+left 90
+forward 50
+home
+left 180
+forward 50
+right 90
+forward 50
+
+*** kriz
+penup
+forward 50
+pendown
+left 90
+forward 25
+back 50
+left 90
+forward 150
+right 90
+forward 50
+right 90
+forward 150
+back 50
+left 90
+forward 50
+back 150
+left 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50

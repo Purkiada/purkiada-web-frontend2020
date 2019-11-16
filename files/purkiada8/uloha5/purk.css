@@ -1,0 +1,22 @@
+body{background-color: black;}
+p{ text-align: center;
+    color: green;
+    color: green;
+    font-family: "Courier New", Courier, monospace;
+    Font-weight: bold;}
+input[type=submit]{
+      background-color: green;
+      margin: auto;
+      border-color:green;
+      width: 25%;
+      margin-left: 42%;
+      font-family: "Courier New", Courier, monospace;
+      Font-weight: bold;} 
+button{
+      background-color: green;
+      margin: auto;
+      border-color:green;
+      width: 25%;
+      margin-left: 42%;
+      font-family: "Courier New", Courier, monospace;
+      Font-weight: bold; }

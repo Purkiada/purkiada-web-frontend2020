@@ -1,0 +1,57 @@
+gad223
+---------
+*** hvezdice
+fd 100
+home
+right 45
+fd 100
+home
+right 90
+fd 100
+home
+right 135
+fd 100
+home
+right 180
+fd 100
+home
+right 225
+fd 100
+home
+right 270
+fd 100
+home
+right 315
+fd 100
+ht
+*** schody
+right 180
+
+to schod
+lt 90
+fd 30
+rt 90
+fd 30
+end
+
+repeat 3 [schod]
+*** kriz
+to ctverec
+fd 50
+rt 90
+fd 50
+rt 90
+fd 50
+rt 90
+fd 50
+end
+
+ctverec
+ctverec
+ctverec
+rt 180
+fd 50
+ctverec
+rt 180
+fd 50
+ctverec

@@ -1,0 +1,3 @@
+2017-02-19 15:18:35 -> User mode.test.asdf logged in.
+2017-02-19 15:18:47 -> Handled EnvironmentCreate "ship:user"
+2017-02-19 15:18:47 -> Handled GetWelcomeText of "user@ship"

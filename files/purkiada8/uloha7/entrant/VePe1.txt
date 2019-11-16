@@ -1,0 +1,16 @@
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 11:15:58
+SBIRANI=USRDESTROYED=Uzivatel byl znicen | student 2017/01/26 11:17:04
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 11:17:05
+SBIRANI=USRDESTROYED=Uzivatel byl znicen | student 2017/01/26 11:17:24
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 11:17:26
+SBIRANI=USRDESTROYED=Uzivatel byl znicen | student 2017/01/26 11:18:13
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 11:18:15
+SBIRANI=USRPOINTS=Mel bodu5student 2017/01/26 11:19:27
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 11:19:31
+SBIRANI=USRPOINTS=Mel bodu5student 2017/01/26 11:20:00
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 11:20:01
+SBIRANI=USRPOINTS=Mel bodu5student 2017/01/26 11:20:24
+SBIRANI=USRPOINTS=Mel bodu5student 2017/01/26 11:20:24
+XY=DATA=00student 2017/01/26 11:20:27
+XY=USRDRAWNSHIP=student 2017/01/26 11:22:04
+XY=USRDRAWNSHIP=student 2017/01/26 11:25:00

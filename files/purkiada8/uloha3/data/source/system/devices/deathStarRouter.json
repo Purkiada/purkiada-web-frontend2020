@@ -1,0 +1,46 @@
+{
+    "name": "WFADevice",
+    "groups": [
+        "admin"
+    ],
+    "accounts": {
+        "names": ["admin"],
+        "data": {
+            "admin": {
+                "admin": true,
+                "password": "deathStarIsBest",
+                "groups": [
+                    "admin"
+                ],
+                "commands": [
+                    {"name": "basic", "type": "set"},
+                    {"name": "network", "type": "set"},
+                    {"name": "router", "type": "set"}
+                ],
+                "homeDirectory": "/",
+                "welcomeText": [
+                    "<p>Směrovač (Router) WFADevice</p><br>",
+
+                    "<p>Pro seznam dostupných příkazů použíjte příkaz <b>help</b>.</p>"
+                ],
+                "exitText": [
+                    "<p>Připojení uzavřeno.</p>"
+                ]
+            }
+        }
+    },
+    "network": [
+        {
+            "id": "wifi-death_star",
+            "enabled": true,
+            "allowChange": false
+        },
+        {
+            "id": "ethernet-death_star",
+            "enabled": true,
+            "allowChange": false
+        }
+    ],
+    "hasFiles": false,
+    "files": []
+}

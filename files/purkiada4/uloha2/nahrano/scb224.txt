@@ -1,0 +1,35 @@
+scb224
+---------
+*** hvezdice
+clean
+repeat 8 [fd 100
+bk 100
+rt 45]
+*** schody
+clean
+pu
+lt 45
+fd 200
+rt 135
+pd
+repeat 3 [
+fd 50
+rt 90
+fd 50
+lt 90
+]
+*** kriz
+clean
+repeat 4 [
+fd 50
+rt 90
+fd 50
+lt 90
+fd 50
+lt 90
+]
+fd 50
+repeat 4 [
+fd 50
+lt 90
+]

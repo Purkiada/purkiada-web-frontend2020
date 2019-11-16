@@ -1,0 +1,56 @@
+ymt207
+---------
+*** hvezdice
+
+*** schody
+
+*** kriz
+
+ymt207
+---------
+*** hvezdice
+forward 30
+back 60
+forward 30
+left 90
+forward 30
+back 60
+forward 30
+left 45
+forward 30
+back 60
+forward 30
+left 90
+forward 30
+back 60
+
+*** schody
+right 90
+
+repeat 3 [
+  forward 30
+right 90
+forward 30
+left 90
+]
+*** kriz
+forward 60
+back 90
+right 90
+forward 30
+left 90
+forward 90
+left 90
+forward 30
+left 90
+forward 30
+right 90
+forward 30
+left 90
+forward 30
+left 90
+forward 90
+left 90
+forward 30
+left 90
+forward 60

@@ -1,0 +1,80 @@
+tre245
+---------
+*** hvezdice
+home
+clean
+forward 100
+back 200
+home
+right 90
+forward 100
+home
+right 180
+forward 100
+home
+right 45
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+
+
+*** schody
+home
+clean
+forward 100
+back 200
+home
+right 90
+forward 100
+home
+right 180
+forward 100
+home
+right 45
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+
+
+*** kriz
+home
+clean
+repeat 4[
+forward 100
+right 90
+]
+forward 100
+repeat 4[
+forward 100
+right 90]
+right 90
+forward 100
+repeat 4[
+forward 100
+right 90]
+right 90
+forward 100
+repeat 4[
+forward 100
+right 90]
+right 90
+forward 100
+repeat 4[
+forward 100
+right 90]
+
+

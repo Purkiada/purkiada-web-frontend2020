@@ -1,0 +1,289 @@
+{
+    "name": "sw.death-star",
+    "groups": [
+        "root",
+        "guest"
+    ],
+    "accounts": {
+        "names": ["root", "guest"],
+        "data": {
+            "root": {
+                "admin": true,
+                "password": "the-best-password-ever",
+                "groups": [
+                    "root"
+                ],
+                "commands": [
+                    {"name": "basic", "type": "set"},
+                    {"name": "files", "type": "set"},
+                    {"name": "network", "type": "set"},
+                    {"name": "server", "type": "set"}
+                ],
+                "homeDirectory": "/root",
+                "welcomeText": [],
+                "exitText": [
+                    "<p>Odhlášení proběhlo úspěšne.</p>"
+                ]
+            },
+            "guest": {
+                "admin": false,
+                "password": "",
+                "groups": [
+                    "guest"
+                ],
+                "commands": [
+                    {"name": "basic", "type": "set"},
+                    {"name": "files", "type": "set"},
+                    {"name": "network", "type": "set"}
+                ],
+                "homeDirectory": "/home/guest",
+                "welcomeText": [
+                    "<p>Vítá Vás Server Hvězdy smrti<p><br>",
+
+                    "<p>Pro seznam dostupných příkazů použíjte příkaz <b>help</b>.</p>"
+                ],
+                "exitText": [
+                    "<p>Připojení uzavřeno.</p>"
+                ]
+            }
+        }
+    },
+    "network": [
+        {
+            "id": "ethernet-death_star",
+            "enabled": true,
+            "allowChange": false
+        }
+    ],
+    "hasFiles": true,
+    "files": [
+        {
+            "name": "bin",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "boot",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "dev",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "etc",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "home",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": [
+                {
+                    "name": "guest",
+                    "owner": "guest",
+                    "group": "guest",
+                    "permissions": "d755",
+                    "content": [
+                        {
+                            "name": "Documents",
+                            "owner": "guest",
+                            "group": "guest",
+                            "permissions": "d755",
+                            "content": []
+                        },
+                        {
+                            "name": "Downloads",
+                            "owner": "guest",
+                            "group": "guest",
+                            "permissions": "d755",
+                            "content": []
+                        },
+                        {
+                            "name": "Music",
+                            "owner": "guest",
+                            "group": "guest",
+                            "permissions": "d755",
+                            "content": []
+                        },
+                        {
+                            "name": "Videos",
+                            "owner": "guest",
+                            "group": "guest",
+                            "permissions": "d755",
+                            "content": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lib",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "lost+found",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": []
+        },
+        {
+            "name": "media",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": []
+        },
+        {
+            "name": "mnt",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": []
+        },
+        {
+            "name": "opt",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "proc",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "root",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d704",
+            "content": [
+                {
+                    "name": "Documents",
+                    "owner": "root",
+                    "group": "root",
+                    "permissions": "d704",
+                    "content": [
+                        {
+                            "name": "ÚkolyProNovéAdministrátory",
+                            "owner": "root",
+                            "group": "root",
+                            "permissions": "-704",
+                            "content": [
+                                "1. Naučit se na slovo poslouchat vedení<br>",
+                                "2. Naučit se nazpamět hesla od hvězdy smrti:<br>",
+                                "&nbsp;&nbsp;&nbsp;a) let.me.in.before.i.get.angry<br>",
+                                "&nbsp;&nbsp;&nbsp;d) deathStarIsBest<br>",
+                                "&nbsp;&nbsp;&nbsp;c) the-worst-password-ever<br>",
+                                "&nbsp;&nbsp;&nbsp;b) Let.Me.In.,.I.Have.Got.Some.Candy.For.You<br>",
+                                "&nbsp;&nbsp;&nbsp;e) the-best-password-ever<br>",
+                                "&nbsp;&nbsp;&nbsp;f) BeAwareTheyRWatching<br>",
+                                "&nbsp;&nbsp;&nbsp;g) it*is*secret<br>",
+                                "3. Neotravovat vedení zbytečnostma, s tím můžete začít už teď a to tím, ",
+                                "že si sami zjistíte které heslo patří ke kterému zařízení."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Downloads",
+                    "owner": "root",
+                    "group": "root",
+                    "permissions": "d704",
+                    "content": [
+                        {
+                            "name": "BestOfNoCopyrightSounds.zip",
+                            "owner": "root",
+                            "group": "root",
+                            "permissions": "-700",
+                            "content": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Music",
+                    "owner": "root",
+                    "group": "root",
+                    "permissions": "d704",
+                    "content": [
+                        {
+                            "name": "BestOfNoCopyrightSounds",
+                            "owner": "root",
+                            "group": "root",
+                            "permissions": "d700",
+                            "content": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Videos",
+                    "owner": "root",
+                    "group": "root",
+                    "permissions": "d704",
+                    "content": []
+                }
+            ]
+        },
+        {
+            "name": "run",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "sbin",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "sys",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "tmp",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d777",
+            "content": []
+        },
+        {
+            "name": "usr",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "var",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        }
+    ]
+}

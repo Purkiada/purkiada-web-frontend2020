@@ -1,0 +1,58 @@
+olm184
+---------
+*** hvezdice
+forward 50
+back 100
+forward 50
+left 90
+forward 50
+back 100
+forward 50
+left 45
+forward 50
+back 100
+forward 50
+left 90
+forward 50
+back 100
+forward 50
+*** schody
+penup 
+back 100
+right 90
+forward 100
+left 90
+pendown
+repeat 3 [
+forward 50
+left 90
+forward 50
+right 90
+]
+*** kriz
+penup
+left 90
+forward 25
+right 90
+forward 100
+pendown 
+back 150
+right 90
+forward 50
+left 90
+forward 150
+left 90 
+forward 50
+left 90 
+forward 50 
+left 90
+forward 100
+right 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50
+right 90 
+forward 50
+

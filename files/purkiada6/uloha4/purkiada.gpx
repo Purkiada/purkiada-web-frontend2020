@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Sports Tracker" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <desc>Purkiáda 2015, 4.úloha GPS šifra.</desc>
+    <author>
+      <name>Daniel Kadrnožka</name>
+    </author>
+    <link href="http://purkiada.sspbrno.cz">
+      <text>Purkiáda 2015</text>
+    </link>
+  </metadata>
+  <trk>
+    <trkseg>
+
+
+      <trkpt lat="39.304882" lon="-76.579816">
+        <ele>10.4</ele>
+        <time>2015-28-01T10:03:39Z</time>
+      </trkpt>
+
+      <trkpt lat="39.304749" lon="-76.582659">
+        <ele>10.5</ele>
+        <time>2015-28-01T10:04:42Z</time>
+      </trkpt>
+
+      <trkpt lat="39.307937" lon="-76.582863">
+        <ele>10.4</ele>
+        <time>2015-28-01T10:05:12Z</time>
+      </trkpt>
+
+      <trkpt lat="39.308028" lon="-76.580062">
+        <ele>10.7</ele>
+        <time>2015-28-01T10:06:57Z</time>
+      </trkpt>
+
+    </trkseg>
+  </trk>
+</gpx>

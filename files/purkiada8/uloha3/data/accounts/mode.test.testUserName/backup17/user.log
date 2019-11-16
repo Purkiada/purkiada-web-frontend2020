@@ -1,0 +1,7 @@
+2018-01-19 22:22:18 -> User mode.test.testUserName logged in.
+2018-01-19 22:24:03 -> Handled EnvironmentCreate "ship:user"
+2018-01-19 22:24:03 -> Handled GetWelcomeText of "user@ship"
+2018-01-19 22:26:26 -> Handled Command "network --help"
+2018-01-19 22:26:48 -> Handled Command "network --status"
+2018-01-19 22:27:09 -> Handled Command "help"
+2018-01-19 22:27:27 -> Handled Command "revert-time"

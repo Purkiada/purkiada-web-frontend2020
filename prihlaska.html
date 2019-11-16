@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <title>Přihláška | Purkiáda</title>
+    <link rel="stylesheet" href="/css/select2.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="img/icon.ico">
+    <script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/API.js"></script>
+    <script src="/js/select2.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="logo"><img src="img/purkiada_logo.svg"></a>
+      <ul>
+        <li>
+          <a href="index.html"><i class="fas fa-home"></i>Hlavní strana</a>
+        </li>
+        <li>
+          <a href="#" class="active"><i class="fas fa-file-signature"></i>Přihláška</a>
+        </li>
+        <li>
+          <a href="zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-school"></i>Informace o škole</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="headline">
+        <h2><i class="fas fa-file-signature"></i>Přihláška</h2>
+        <hr>
+      </div>
+      <p style="margin: auto;">Je potřeba vyplnit základní osobní údaje a údaje o škole na které aktuálně jste.</p>
+      <form class="prihlaska" id="prihlaska-form">
+        <div>
+          <i class="fas fa-user-circle fa-fw"></i>
+          <input type="text" name="firstname" placeholder="Jméno" required>
+        </div>
+        <div>
+          <i class="fas fa-user-circle fa-fw"></i>
+          <input type="text" name="lastname" placeholder="Příjmení" required>
+        </div>
+        <div>
+          <i class="fas fa-at fa-fw"></i>
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+          <i class="fas fa-city fa-fw"></i>
+          <select id="prihlaska-select-village" required>
+            <option selected="selected" value>- Vyberte oblast školy -</option>
+          </select>
+        </div>
+        <div>
+          <i class="fas fa-school fa-fw"></i>
+          <select id="prihlaska-select-school" name="school" required disabled>
+            <option selected="selected" value>- Vyberte školu -</option>
+          </select>
+        </div>
+        <button id="prihlaska-submit" type="submit" name="sumbit"><i class="fas fa-clipboard-check"></i>Přihlásit se</button>
+      </form>
+
+      <script>
+      $(document).ready(()=>{
+        var $selectVillage = $("#prihlaska-select-village");
+        var $selectSchool = $("#prihlaska-select-school");
+        var $prihlaska = $("#prihlaska-form");
+        var $button = $("#prihlaska-submit");
+        var buttonContent = $button.html();
+
+        /// INIT
+        $selectVillage.select2();
+        $selectSchool.select2();
+        $selectSchool.prop("disabled", true);
+
+
+        /// LOAD
+        $selectVillage.html(`<option selected="selected" value>Načítání...</option>`);
+        $selectVillage.prop("disabled", true);
+        API.getVillages().done((villages)=>{
+          $selectVillage.html(`<option selected="selected" value>- Vyberte oblast školy -</option>`);
+
+          villages.forEach((village)=>{
+            $selectVillage.append(`<option value="${village._id}">${village.name}</option>`);
+          });
+
+          $selectVillage.prop("disabled", false);
+        }).fail(()=>{
+          $selectVillage.html(`<option selected="selected" value>Načítání selhalo, zkuste to později</option>`);
+        });
+
+
+        /// EVENT
+        $selectVillage.change((ev)=>{
+          $selectSchool.prop("disabled", true);
+          $selectSchool.html(`<option selected="selected" value>Načítání...</option>`);
+
+          API.getSchools($selectVillage.val()).done((schools)=>{
+            $selectSchool.html(`<option selected="selected" value>- Vyberte školu -</option>`);
+
+            schools.forEach((school)=>{
+              $selectSchool.append(`<option value="${school._id}">${school.name}</option>`);
+            });
+
+            $selectSchool.prop("disabled", false);
+          }).fail(()=>{
+            $selectSchool.html(`<option selected="selected" value>Načítání selhalo!</option>`);
+          });
+        });
+
+        $prihlaska.submit((ev)=>{
+          ev.preventDefault();
+
+          $button.html(`<i class="fas fa-spinner fa-pulse"></i> Odesílám přihlášku...`)
+
+          API.submitStudent($prihlaska.serialize()).always((res)=>{
+            $(".prihlaska-warn").remove();
+
+            if(res == "ok"){
+              $button.html(`<i class="fas fa-check"></i> Přihláška odeslána!`).attr("disabled", "disabled");
+
+            }else if(res == "email-exists"){
+              $(`<p class="prihlaska-warn"><i class="fas fa-exclamation-triangle"></i> Tento e-mail používá někdo jiný</p>`).insertAfter($button)
+              $button.html(buttonContent);
+            }
+          });
+
+          return false;
+        })
+
+      });
+
+      </script>
+
+    </main>
+    <footer>
+      <div class="copyright">
+        <img src="img/ssplogo.svg">
+        <p>© 2019 Střední průmyslová škola Brno, Purkyňova, příspěvková organizace</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/sspbrno"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/Purkynka"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.sspbrno.cz/"><i class="fas fa-globe"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

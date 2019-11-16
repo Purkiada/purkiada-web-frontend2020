@@ -1,0 +1,8 @@
+2018-01-24 20:19:17 -> User mode.test.jkls logged in.
+2018-01-24 20:20:49 -> Handled EnvironmentCreate "ship:user"
+2018-01-24 20:20:49 -> Handled GetWelcomeText of "user@ship"
+2018-01-24 20:22:33 -> Handled Command "network"
+2018-01-24 20:22:44 -> Handled Command "help"
+2018-01-24 20:22:59 -> Handled Command "network"
+2018-01-24 20:23:37 -> Handled Command "--help"
+2018-01-24 20:23:48 -> Handled Command "bash help"

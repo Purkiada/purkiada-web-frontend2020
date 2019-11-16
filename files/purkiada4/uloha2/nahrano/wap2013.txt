@@ -1,0 +1,66 @@
+wap2013
+---------
+*** hvezdice
+clean
+home
+left 90
+forward 200
+left 180
+forward 100
+right 90
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 45
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 200
+*** schody
+clean
+home
+left 180
+forward 50
+right 180
+forward 50
+right 270
+forward 50
+right 90
+forward 50
+right 270
+forward 50
+right 90
+forward 50
+right 270
+forward 50
+*** kriz
+clean
+home
+forward 50
+left 90
+forward 150
+left 90
+forward 50
+left 90
+forward 150
+left 180
+penup
+forward 50
+pendown
+left 90
+forward 50
+right 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50
+right 90
+forward 100

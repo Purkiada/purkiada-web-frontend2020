@@ -1,0 +1,76 @@
+kat257
+---------
+*** hvezdice
+clearscreen
+forward 100 
+back 50
+right 90
+forward 50
+back 50
+left 45
+forward 50
+back 50
+left 90
+forward 50
+back 50
+left 45
+forward 50
+back 50
+left 45
+forward 50
+back 50
+left 90
+forward 50
+
+*** schody
+clean
+
+
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+
+*** kriz
+clean
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+right 90
+forward 100
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 150
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 50
+

@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(../font/SourceCodePro-Medium.otf);
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.heading {
+    color: white;
+    margin: 0 auto;
+}
+
+#control-panel {
+    position: relative;
+    height: 100%;
+}
+
+#background-wrapper, #content-background-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#top-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#left-image {
+    width: 14.625%;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    /*overflow: hidden;*/
+}
+
+#right-image {
+    position: absolute;
+    right: 0;
+    width: 14.625%;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    /*overflow: hidden*/;
+}
+
+#bottom-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#console-wrapper {
+    font-family: "Source Code Pro", "Ubuntu Mono", monospace;
+    font-size: 1em;
+    color: white;
+}
+
+#console-wrapper {
+    position: absolute;
+    left: 14.625%;
+    top: 41.506%;
+
+    margin: 0;
+    padding: 0;
+    width: 70.751%;
+    height: 48%;
+    background-color: black;
+    /*overflow-y: scroll;*/
+    overflow: hidden;
+    display: inline-block;
+}
+
+#terminal-result, span#input-prefix, p#processing-request-line {
+    margin-left: 8px;
+}
+
+#terminal-result > p, #terminal-result > span, p#processing-request-line, span#processing-request {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+}
+
+#input-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+input#input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+}
+
+input#input:focus {
+    outline: 0;
+}
+
+p#processing-request-line {
+    display: block;
+}
+
+span#processing-request {
+    display: none;
+}
+
+div.file-edit-wrapper {
+    /*height: auto;*/
+}
+
+div.file-edit-text {
+    background: black;
+    display: inline-block;
+    min-height: 100px;
+    width: calc(100% - 30px);
+    margin: 10px;
+    padding: 5px;
+}
+
+button.file-edit-button {
+    background: black;
+    margin: 2px;
+}

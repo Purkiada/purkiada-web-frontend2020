@@ -1,0 +1,12 @@
+2017-01-26 09:51:47 -> User MeMa logged in.
+2017-01-26 09:53:01 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 09:53:01 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 10:04:09 -> Handled Command "bash --help"
+2017-01-26 10:58:10 -> User MeMa logged in.
+2017-01-26 10:58:10 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 10:58:10 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 10:58:42 -> Handled Command "bash --help "
+2017-01-26 11:00:20 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 11:00:20 -> Handled Command "bash"
+2017-01-26 11:35:21 -> Handled Command "revert-time"
+2017-01-26 11:35:28 -> Handled Command "-f"

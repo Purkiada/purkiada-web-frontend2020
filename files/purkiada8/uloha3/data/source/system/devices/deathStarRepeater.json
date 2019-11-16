@@ -1,0 +1,41 @@
+{
+    "name": "TL-WA850RE",
+    "groups": [
+        "admin"
+    ],
+    "accounts": {
+        "names": ["admin"],
+        "data": {
+            "admin": {
+                "admin": true,
+                "password": "admin",
+                "groups": [
+                    "admin"
+                ],
+                "commands": [
+                    {"name": "basic", "type": "set"},
+                    {"name": "network", "type": "set"},
+                    {"name": "repeater", "type": "set"}
+                ],
+                "homeDirectory": "/",
+                "welcomeText": [
+                    "<p>Opakovač (Repeater) TL-WA850RE</p><br>",
+
+                    "<p>Pro seznam dostupných příkazů použíjte příkaz <b>help</b>.</p>"
+                ],
+                "exitText": [
+                    "<p>Připojení uzavřeno.</p>"
+                ]
+            }
+        }
+    },
+    "network": [
+        {
+            "id": "wifi-death_star",
+            "enabled": true,
+            "allowChange": false
+        }
+    ],
+    "hasFiles": false,
+    "files": []
+}

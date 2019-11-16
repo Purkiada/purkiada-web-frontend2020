@@ -1,0 +1,69 @@
+vgi200
+---------
+*** hvezdice
+home
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 45
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+back 100
+*** schody
+penup
+left 45
+forward 200
+right 135
+pendown
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+*** kriz
+penup
+forward 25
+left 90
+forward 20
+pendown
+forward 50
+left 90
+forward 50
+left 90
+forward 150
+left 90
+forward 50
+left 90
+forward 100
+right 90
+forward 50
+right 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50
+right 90
+forward 100

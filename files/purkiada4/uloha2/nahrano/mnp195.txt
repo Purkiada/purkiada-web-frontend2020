@@ -1,0 +1,57 @@
+mnp195
+---------
+*** hvezdice
+clean
+home
+forward 100
+right 90
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 100
+left 45
+forward 100
+left 180
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+left 180
+forward 200
+*** schody
+clean
+home
+forward 50
+left 90
+forward 50
+right 90
+repeat 2 [forward 50
+left 90
+forward 50
+right 90]
+*** kriz
+clean
+home
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+right 90
+repeat 4 [forward 50
+left 90
+forward 50
+right 90
+forward 50
+right 90]
+forward 100
+right 90
+forward 50
+repeat 2 [right 90
+forward 50]

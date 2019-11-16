@@ -1,0 +1,226 @@
+@font-face {
+  src: url(../webfonts/Roboto-Light.ttf) format(truetype);
+  font-family: Roboto;
+  font-weight: lighter;
+}
+@font-face {
+  src: url(../webfonts/Roboto-Regular.ttf) format(truetype);
+  font-family: Roboto;
+  font-weight: normal;
+}
+*{
+  font-family: Roboto, sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.mainHeader{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100vh;
+  position: relative;
+  background-color: #14a25f;
+}
+.mainHeadline{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+.headlines{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  margin: auto 25% auto 45%;
+  z-index: 2;
+}
+.headlines h1{
+  font-size: 76px;
+  text-align: center;
+  margin: auto auto 10px auto;
+  font-weight: bold;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+.headlines p{
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  margin: 5px auto auto auto;
+}
+.headlines hr{
+  width: 35vw;
+  height: 5px;
+  color: white;
+  background-color: white;
+  margin: 0 auto;
+}
+.mainHeadline img{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  object-fit: cover;
+  opacity: .75;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #14a25f;
+  color: white;
+  width: 20%;
+  height: 100%;
+}
+nav .logo{
+  width: 74%;
+  height: auto;
+  margin: 0 auto 75px auto;
+}
+nav ul{
+  list-style: none;
+  margin: 25px auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+nav ul li{
+  padding: 15px;
+  width: 76%;
+  margin: 5px auto;
+  font-size: 18px;
+  font-weight: normal;
+  transition: .2s;
+}
+nav ul li:hover, nav ul li:focus{
+  background-color: #107344;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+nav ul li a i{
+  margin-right: 5px;
+}
+main{
+  padding: 2rem 3rem;
+  color: #1c1c1c;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section{
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 60%;
+}
+main section h6{
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+main section p{
+  font-size: 18px;
+  margin: 10px auto;
+}
+main section:last-of-type a{
+  color: white;
+  background-color: #14a25f;
+  padding: 25px;
+  width: 40%;
+  text-align: center;
+  margin: 25px auto;
+  font-size: 20px;
+  text-decoration: none;
+  transition: .2s;
+  border-radius: 10px;
+}
+main section:last-of-type a:hover, main section:last-of-type a:focus{
+  background-color: #107344;
+}
+main section:last-of-type a i{
+  margin-right: 10px;
+}
+.divider{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: relative;
+  align-items: center;
+  vertical-align: middle;
+  margin: 50px auto 25px auto;
+}
+.divider hr{
+  background-color: #14a25f;
+  width: 70%;
+  height: 6px;
+  margin: 0 auto;
+  color: white;
+}
+.divider i{
+  background-color: white;
+  padding: 1rem;
+  position: absolute;
+  margin: 0 auto;
+  color: #14a25f;
+  font-size: 40px;
+  border-radius: 50%;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 25px auto;
+  padding: 0.25rem 1rem;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  margin: auto auto auto 0;
+}
+.copyright p{
+  margin: auto 5px;
+  font-weight: 300;
+}
+.copyright img{
+  height: 32px;
+  width: auto;
+  margin: auto 5px;
+}
+footer .social-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto 0 auto auto;
+}
+footer .social-icons a{
+  color: #14a25f;
+  font-size: 32px;
+  margin: auto 10px;
+  transition: .2s;
+}
+footer .social-icons a:hover, footer .social-icons a:focus{
+  color: #107344;
+}

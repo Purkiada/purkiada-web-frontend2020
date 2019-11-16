@@ -1,0 +1,8 @@
+alt243
+---------
+*** hvezdice
+repeat 8 [ fd 50 bk 50 rt 45 ]
+*** schody
+repeat 3 [ rt 90 fd 50 rt 90 fd 50 lt 90 lt 90 ]
+*** kriz
+repeat 2 [ fd 150 rt 90 fd 50 rt 90 fd 150 rt 90 fd 50 rt 90 fd 50 rt 90 penup fd 100 rt 180 pendown ]

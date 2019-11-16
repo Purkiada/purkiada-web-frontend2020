@@ -1,0 +1,13 @@
+ldt216
+---------
+*** hvezdice
+pendown forward 100 penup back 200 pendown forward 100 left 45
+pendown forward 100 penup back 200 pendown forward 100 left 45
+pendown forward 100 penup back 200 pendown forward 100 left 45
+pendown forward 100 penup back 200 pendown forward 100 left 45
+*** schody
+right 90 pendown forward 50 right 90 forward 50 left 90
+forward 50 right 90 forward 50 left 90
+forward 50 right 90 forward 50 left 90
+*** kriz
+right 90 forward 50 right 90 forward 150 right 90 forward 50 right 90 forward 50 left 90 forward 50 right 90 forward 50 right 90 forward 150 right 90 forward 50 right 90 forward 100 right 90 forward 100 

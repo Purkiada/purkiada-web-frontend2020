@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<title>Toto je negativ modré</title>
+		<style type="text/css">
+			body {font-family:sans-serif;background-color:#E89960}
+			input {color:white;background-color:#E89960;font-size:80px;width:525px;border:4px solid white;border-radius:5px}
+		</style>
+  	</head>
+	<body>
+	 	<input type="button" value="?" onclick="this.nextSibling.style.display='block';this.style.display='none'"><div style="display:none">
+	    Jak vytvoříme negativ u RGB modelu?
+	    <ul>
+		    <li>vezmeme jednotlivé barevné složky a odečteme je od maxima (255)</li>
+		    <li>inverze hodnoty 4 → 255-4 = 251</li>
+		    <li>inverze hodnoty 5 → 255-5 = 250</li>
+	    </ul>    
+	    </div>
+    </body>
+</html>

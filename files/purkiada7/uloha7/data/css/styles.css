@@ -1,0 +1,58 @@
+html, body{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color: rgba(0,0,0,0.9);
+}
+
+.heading{
+  color:white;
+  margin:0 auto;
+}
+
+.console-wrapper{
+  margin: 0 auto;
+  margin-top:50px;
+  margin-bottom:50px;
+  height:500px;
+  width:90%;
+  background-color:black;
+  border: 5px solid darkgray;
+  overflow-y:scroll;
+}
+
+.console-wrapper > p{
+  padding-left:5px;
+  font-size:1.5em;
+  color:white;
+}
+
+.return{
+  margin-left:5px;
+  color:white;
+}
+
+.return > p > span{
+  color:blue;
+}
+
+.return > p{
+  margin-bottom:5px;
+  margin-top:5px;
+}
+
+.return > input{
+  background-color:transparent;
+  width:70%;
+  border:none;
+}
+
+.return > span{
+  color:yellow;
+}
+
+.return > input:focus{
+  outline:0;
+}

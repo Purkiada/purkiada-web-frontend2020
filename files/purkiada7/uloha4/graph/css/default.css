@@ -1,0 +1,58 @@
+body{
+	background-image:url("../img/default.jpg");
+}
+/*
+	Login stránka
+*/
+#login{
+	margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+	text-shadow:  -5px 3px 5px #000000 ;
+}
+table td{
+	text-align:center;
+}
+table td input{
+	font-size:20px;
+	text-align:center;
+}
+table td p {
+	color:#FFFFFF;
+	font-size:25px;
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+	background-color:#D8D8D8;
+}
+a{
+	text-decoration:none;
+}
+/*
+	Ostatní dokumenty
+*/
+#cheated{
+	width:400px;
+	height:60%;
+	text-align:center;
+	margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    color:#000000;
+	background-color:#ea3232;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{
+	text-decoration:underline;
+} 

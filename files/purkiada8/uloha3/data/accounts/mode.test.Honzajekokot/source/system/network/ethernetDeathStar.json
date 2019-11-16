@@ -1,0 +1,10 @@
+{
+    "id": "ethernet-death_star",
+    "type": "Ethernet",
+    "lan": [
+        "10.0.0.2|DINAAMO123",
+        "10.0.0.3|WFADevice",
+        "10.0.0.13|KOdor038",
+        "10.0.0.128|sw.death-star"
+    ]
+}

@@ -1,0 +1,11 @@
+2017-03-26 23:45:33 -> User mode.test.MarekAfterPurkiada logged in.
+2017-03-26 23:45:36 -> Handled EnvironmentCreate "ship:user"
+2017-03-26 23:45:36 -> Handled GetWelcomeText of "user@ship"
+2017-03-26 23:45:40 -> Handled Command "help"
+2017-03-26 23:45:53 -> Handled Command "cat"
+2017-03-26 23:45:57 -> Handled Command "help cat"
+2017-03-26 23:46:04 -> Handled Command "cat --help"
+2017-03-26 23:46:22 -> Handled Command "ls -al "
+2017-03-26 23:46:22 -> Handled Command "ll"
+2017-03-26 23:46:24 -> Handled Command "ls"
+2017-03-26 23:46:27 -> Handled Command "ln"

@@ -1,0 +1,10 @@
+2017-01-30 14:26:40 -> User mode.test.testUserName logged in.
+2017-01-30 14:27:28 -> Handled EnvironmentCreate "ship:user"
+2017-01-30 14:27:28 -> Handled GetWelcomeText of "user@ship"
+2017-01-30 14:28:13 -> Handled Command "--help"
+2017-01-30 14:28:18 -> Handled Command "help"
+2017-01-30 14:28:30 -> Handled Command "network"
+2017-01-30 14:28:40 -> Handled Command "network --help"
+2017-01-30 14:28:55 -> Handled Command "network --status"
+2017-01-30 14:29:19 -> Handled Command "network --connect"
+2017-01-30 14:29:32 -> Handled Command "network --connect DeathStar"

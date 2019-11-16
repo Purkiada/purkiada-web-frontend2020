@@ -1,0 +1,49 @@
+dja182
+---------
+*** hvezdice
+cs
+repeat 8 [
+    forward 150
+    back 150
+    left 45
+]
+*** schody
+cs
+penup
+right 135
+forward 200
+pendown
+left 135
+repeat 3 [
+    forward 100
+    left 90
+    forward 100
+    right 90
+]
+*** kriz
+cs
+penup
+forward 150
+left 90
+forward 50
+pendown
+left 90
+forward 300
+left 90
+forward 100
+left 90
+forward 300
+left 90
+forward 100
+left 90
+forward 100
+right 90
+repeat 2 [
+    forward 100
+    left 90
+]
+forward 300
+left 90
+forward 100
+left 90
+forward 200

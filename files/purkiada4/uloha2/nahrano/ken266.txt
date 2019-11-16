@@ -1,0 +1,78 @@
+ken266
+---------
+*** hvezdice
+forward 100
+left 180 
+penup
+home 
+pendown 
+forward 100
+left 180 
+penup
+home
+pendown 
+right 45 
+forward 100
+left 180
+penup
+home
+pendown 
+forward 100
+penup
+home
+right 45
+pendown
+forward 100
+left 180
+penup
+home
+pendown 
+forward 100
+left 180 
+penup
+home
+pendown 
+right 45
+forward 100
+right 180
+penup 
+home 
+pendown
+forward 100
+right 180 
+penup
+home
+*** schody
+right 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90 
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+*** kriz
+forward 50
+right 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50
+right 90
+forward 100
+left 90
+forward 50
+left 90
+forward 50
+left 90
+forward 150
+left 90 
+forward 50
+left 90
+forward 100
+

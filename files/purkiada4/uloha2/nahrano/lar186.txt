@@ -1,0 +1,77 @@
+lar186
+---------
+*** hvezdice
+forward 100
+home
+right 180
+forward 100
+home
+right 90
+forward 100
+home
+right 180
+forward 100
+home
+right 120
+forward 120
+home
+left 180
+forward 120
+home
+right 290
+forward 120
+home
+left 190
+forward 120
+home
+
+*** schody
+right 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+*** kriz
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 200
+left 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+right 90
+forward 200
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+
+

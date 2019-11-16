@@ -1,0 +1,82 @@
+cme219
+---------
+*** hvezdice
+home
+clean
+right 90
+fd 90
+pendown
+rt 180
+fd 180
+pendown
+back 90
+right 90
+fd 90
+pendown
+bk 180
+pendown
+fd 90
+left 45
+fd 90
+pendown
+back 180
+pendown
+fd 90
+left 90
+fd 90
+back 180
+pendown
+*** schody
+home
+clean
+rt 90
+fd 60
+pendown
+rt 90
+fd 60
+pendown
+lt 90
+fd 60
+pendown
+rt 90
+fd 60
+pendown
+lt 90
+fd 60
+pendown
+rt 90
+fd 60
+pendown
+*** kriz
+cs
+fd 60
+pendown
+lt 90
+fd 60
+pendown
+lt 90
+fd 60
+pendown
+lt 90
+fd 60
+pendown
+fd 60
+pendown
+rt 90
+fd 60
+pendown
+rt 90
+fd 60
+pendown
+fd 60 + 60
+rt 90
+fd 60
+rt 90
+fd 60
+pendown
+rt 90
+fd 60 + 60
+lt 90
+fd 60
+lt 90
+fd 60 + 60

@@ -1,0 +1,7 @@
+XY=DATA=00student 2017/01/26 08:34:48
+XY=DATA=00student 2017/01/26 08:38:05
+XY=DATA=00student 2017/01/26 08:38:58
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 08:39:13
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 08:43:11
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 08:43:13
+SBIRANI=USRSTART=Uzivatel spustil hru | 03student 2017/01/26 08:52:46

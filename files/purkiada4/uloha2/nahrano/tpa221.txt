@@ -1,0 +1,89 @@
+tpa221
+---------
+*** hvezdice
+forward 100
+pu
+back 100
+pd
+back 100
+pu
+forward 100
+pd
+left 90
+forward 120
+pu
+back 120
+pd
+back 120
+pu
+forward 120
+pd
+left 45
+forward 90
+pu 
+back 90
+pd
+back 90
+pu
+forward 90
+pd
+right 90
+forward 90
+pu
+back 90
+pd
+back 90
+pu 
+forward 90
+*** schody
+pu
+right 90
+forward 100
+pd
+left 90
+forward 60
+left 90
+forward 80
+right 90
+forward 60
+left 90
+forward 80
+right 90
+forward 60
+left 90
+forward 80
+*** kriz
+pu
+left 90
+forward 100
+pd
+forward 50
+right 90
+forward 40
+right 90
+forward 50
+left 90
+forward 40
+right 90
+forward 50
+right 90
+forward 40
+left 90
+forward 50
+right 90
+forward 40
+right 90
+forward 50
+left 90
+forward 40
+right 90
+forward 50
+right 90
+forward 80
+right 90
+forward 50
+right 90
+forward 40
+right 90
+forward 50
+

@@ -1,0 +1,8 @@
+2018-01-16 22:15:08 -> User mode.test.adam logged in.
+2018-01-16 22:16:44 -> Handled EnvironmentCreate "ship:user"
+2018-01-16 22:16:44 -> Handled GetWelcomeText of "user@ship"
+2018-01-16 22:18:01 -> Handled Command "Help"
+2018-01-16 22:18:15 -> Handled Command "'help'"
+2018-01-16 22:18:37 -> Handled Command "help"
+2018-01-16 22:19:06 -> Handled Command "Network"
+2018-01-16 22:19:14 -> Handled Command "//network"

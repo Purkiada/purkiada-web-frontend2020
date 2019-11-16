@@ -1,0 +1,80 @@
+iol181
+---------
+*** hvezdice
+clean
+home
+forward 
+right 
+forward 
+left 90
+forward 100
+right 90
+forward 100
+left 180
+forward 200
+back 100
+right 90
+forward 100
+right 180
+forward 100
+left 140
+forward 100
+left 180
+forward 200
+back 100
+left 90
+forward 100
+back 200
+
+*** schody
+clean
+home
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+*** kriz
+clean
+home
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 90 
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100 
+right 90 
+forward 100
+left 90
+forward 100
+left 90
+forward 200
+left 90
+forward 100
+left 90
+forward 100
+left 90
+forward 200
+

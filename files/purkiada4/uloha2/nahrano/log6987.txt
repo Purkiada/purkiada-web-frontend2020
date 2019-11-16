@@ -1,0 +1,39 @@
+log6987
+---------
+*** hvezdice
+clean
+home
+forward 100
+repeat 7 [ home
+left 45
+forward 100]
+*** schody
+clean
+
+repeat 2 [ 
+right 90
+forward 50]
+repeat 2 [ left 90
+forward 50
+right 90
+forward 50]
+*** kriz
+clean
+repeat 2 [ 
+
+left 90
+forward 50
+left 90
+forward 150]
+left 180
+forward 50
+left 90
+repeat 2 [ 
+
+forward 50
+right 90]
+forward 150
+right 90 
+forward 50 
+right 90 
+forward 150

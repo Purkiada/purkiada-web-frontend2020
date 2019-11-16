@@ -1,0 +1,60 @@
+mami2013
+---------
+*** hvezdice
+clean
+left 90
+forward 200
+left 180
+forward 100
+left 90
+forward 100
+right 180
+forward 100
+left 45
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+back 100
+left 90
+forward 100
+back 100
+*** schody
+right 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+home
+left 180
+forward 50
+left 90
+forward 50
+*** kriz
+left 90
+forward 75
+back 150
+left 90
+forward 50
+right 90
+forward 150
+right 90
+forward 50
+home
+right 90
+forward 25
+left 90
+forward 50
+left 90
+forward 50
+left 90 
+forward 150
+left 90
+forward 50
+left 90 forward 100

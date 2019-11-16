@@ -1,0 +1,73 @@
+nzs191
+---------
+*** hvezdice
+clean
+home
+left 45
+forward 50
+left 180
+forward 100
+left 180
+forward 50
+left 90
+forward 50
+left 180
+forward 100
+left 180
+forward 50
+left 45
+forward 50
+left 180
+forward 100
+left 180
+forward 50
+left 90
+forward 50
+left 180
+forward 100
+*** schody
+clean
+home
+left 45
+forward 50
+left 180
+forward 100
+left 180
+forward 50
+left 90
+forward 50
+left 180
+forward 100
+left 180
+forward 50
+left 45
+forward 50
+left 180
+forward 100
+left 180
+forward 50
+left 90
+forward 50
+left 180
+forward 100
+*** kriz
+home
+forward 200
+left 90
+forward 100
+left 90
+forward 300
+left 90
+forward 100
+left 90
+forward 100
+left 90
+forward 200
+right 90
+forward 100
+right 90
+forward 300
+right 90
+forward 100
+right 90
+forward 100

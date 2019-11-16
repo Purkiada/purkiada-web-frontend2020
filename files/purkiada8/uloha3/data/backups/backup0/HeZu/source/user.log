@@ -1,0 +1,10 @@
+2017-01-26 11:31:53 -> User HeZu logged in.
+2017-01-26 11:33:40 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 11:33:40 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 11:35:10 -> Handled Command "network --help"
+2017-01-26 11:35:40 -> Handled Command "network --status"
+2017-01-26 11:36:45 -> Handled Command "network --connect DeathStar"
+2017-01-26 11:38:11 -> Handled Command "networ"
+2017-01-26 11:38:15 -> Handled Command "network"
+2017-01-26 11:38:33 -> Handled Command "network --status"
+2017-01-26 11:41:08 -> Handled Command "network --connect 192.168.1.30"

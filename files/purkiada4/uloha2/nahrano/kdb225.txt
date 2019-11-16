@@ -1,0 +1,19 @@
+kdb225
+---------
+*** hvezdice
+lt 90 fd 100
+repeat 8 [fd 100 bk 100 rt 45]
+*** schody
+rt 90
+repeat 2 [fd 50 rt 90 fd 50 lt 90 ]
+fd 50
+*** kriz
+repeat 4 [fd 50 rt 90]
+fd 50
+repeat 4 [fd 50 rt 90]
+lt 90
+repeat 4 [fd 50 rt 90]
+rt 90 fd 50
+repeat 4 [fd 50 rt 90]
+rt 90 fd 50
+repeat 4 [fd 50 rt 90]

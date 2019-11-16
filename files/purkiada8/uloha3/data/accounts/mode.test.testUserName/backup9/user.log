@@ -1,0 +1,5 @@
+2017-06-01 22:39:34 -> User mode.test.testUserName logged in.
+2017-06-01 22:39:56 -> Handled EnvironmentCreate "ship:user"
+2017-06-01 22:39:56 -> Handled GetWelcomeText of "user@ship"
+2017-06-01 22:40:30 -> Handled GetExitText of "user@ship"
+2017-06-01 22:40:30 -> Handled Command "exit -f"

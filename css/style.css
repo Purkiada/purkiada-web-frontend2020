@@ -1,0 +1,453 @@
+@font-face {
+  src: url(../webfonts/Roboto-Light.ttf) format("truetype");
+  font-family: Roboto;
+  font-weight: lighter;
+}
+@font-face {
+  src: url(../webfonts/Roboto-Regular.ttf) format("truetype");
+  font-family: Roboto;
+  font-weight: normal;
+}
+*{
+  font-family: Roboto, sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+}
+nav{
+  background-color: #14a25f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+nav .logo img{
+  height: 76px;
+  width: auto;
+  margin: auto auto auto 0;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto 0 auto auto;
+  padding: 0;
+}
+nav ul li{
+  margin: auto 5px;
+  padding: 0;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 35px 15px;
+  transition: .2s;
+  margin: 0;
+}
+nav ul li .active{
+  background-color: #149457;
+}
+nav ul li a:hover, nav ul li a:focus{
+  background-color: #107344;
+}
+nav ul li a i{
+  margin-right: 10px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 1rem 2rem;
+  color: #1c1c1c;
+}
+main .headline{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: relative;
+  align-items: center;
+}
+main .headline hr{
+  background-color: #14a25f;
+  color: #14a25f;
+  width: 70%;
+  height: 5px;
+  border: none;
+  position: absolute;
+  z-index: -1;
+}
+main .headline h2{
+  font-size: 38px;
+  text-align: center;
+  color: #14a25f;
+  background-color: white;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+main .headline h2 i{
+  margin-right: 10px;
+}
+main .info{
+  width: 70%;
+  margin: 15px auto;
+  list-style-type: none;
+}
+main .info li{
+  border-left: 3px #14a25f solid;
+  margin: 15px 0;
+  padding: 5px 10px;
+}
+#zadani{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin: 25px auto;
+}
+.zadani-item{
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 25px 20px;
+  text-decoration: none;
+  border: 5px solid white;
+  transition: .1s;
+  background-color: #14a25f;
+}
+.zadani-item:hover, .zadani-item:focus{
+  border-color: #107344;
+}
+.zadani-item:hover p, .zadani-item:focus p{
+  background-color: #107344;
+}
+.zadani-item p{
+  color: white;
+  background-color: #14a25f;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  max-width: 100%;
+  padding: 15px;
+  text-decoration: none;
+  transition: .1s;
+}
+.zadani-item p span{
+  font-weight: 300;
+}
+.zadani-item img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 25px auto;
+  padding: 0.25rem 1rem;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  margin: auto auto auto 0;
+}
+.copyright p{
+  margin: auto 5px;
+  font-weight: 300;
+}
+.copyright img{
+  height: 32px;
+  width: auto;
+  margin: auto 5px;
+}
+footer .social-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto 0 auto auto;
+}
+footer .social-icons a{
+  color: #14a25f;
+  font-size: 32px;
+  margin: auto 10px;
+  transition: .2s;
+}
+footer .social-icons a:hover, footer .social-icons a:focus{
+  color: #107344;
+}
+.rocnik-mainheadline{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 256px;
+}
+.rocnik-mainheadline p{
+  margin: 75px auto;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: absolute;
+  color: #14a25f;
+  border: #14a25f 10px solid;
+  padding: 10px;
+}
+.rocnik-mainheadline img{
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: 50% 40%;
+  filter: grayscale(75%);
+}
+.default p{
+  color: white;
+  border: white 10px solid;
+}
+.default img{
+  filter: grayscale(0%);
+}
+.rocnik-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px auto;
+}
+.rocnik-info p{
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto 50px;
+  padding: 10px 15px;
+  border-right: 3px #14a25f solid;
+  border-left: 3px #14a25f solid;
+}
+.rocnik-info p span{
+  font-weight: 300;
+}
+.rocnik-soubory{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+}
+.rocnik-soubory a{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 6px #14a25f solid;
+  color: #14a25f;
+  margin: 10px 50px;
+  padding: 7px 15px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: .2s;
+}
+.rocnik-soubory a:hover{
+  color: #107344;
+  border-color: #107344;
+}
+.rocnik-soubory a i{
+  font-size: 28px;
+}
+.rocnik-soubory a i:first-of-type{
+  margin: auto 50px auto 5px;
+}
+.rocnik-soubory a i:last-of-type{
+  margin: auto 5px auto 50px;
+}
+.rocnik-ulohy{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+  align-items: baseline;
+}
+.rocnik-ulohy div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #14a25f;
+  padding: 25px 20px;
+  border-radius: 8px;
+  margin: 25px;
+}
+.rocnik-ulohy div p{
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin: 10px auto 25px auto;
+}
+.rocnik-ulohy div a{
+  text-align: center;
+  font-size: 16px;
+  margin: 5px auto;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  border: 4px white solid;
+  transition: .1s;
+}
+.rocnik-ulohy div a span{
+  font-size: 12px;
+}
+.rocnik-ulohy div a:hover{
+  background-color: white;
+  color: #14a25f;
+}
+.rocnik-ulohy div a i{
+  margin-right: 5px;
+}
+.rocnik-headline{
+  width: 50%;
+  font-size: 32px;
+  text-align: center;
+  margin: 50px auto 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.rocnik-headline p{
+  color: #14a25f;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+.rocnik-headline p i{
+  margin-right: 5px;
+}
+.rocnik-headline hr{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  color: #14a25f;
+  background-color: #14a25f;
+  border: none;
+  height: 6px;
+  margin: 0;
+}
+.prihlaska{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto;
+  height: auto;
+  width: 100%;
+}
+.prihlaska div{
+  width: 600px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 20px auto;
+  font-size: 24px;
+  border: none;
+  padding: 0;
+  font-weight: 300;
+}
+.prihlaska div i{
+  background-color: #14a25f;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+.prihlaska div input, .prihlaska div select{
+  border: 2px #14a25f solid;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0;
+  width: 100%;
+}
+.prihlaska button{
+  color: white;
+  width: 600px;
+  max-width: 100%;
+  margin: 20px auto;
+  font-size: 24px;
+  font-weight: 300;
+  border: none;
+  background-color: #14a25f;
+  padding: 10px 20px;
+  transition: .2s;
+  cursor: pointer;
+}
+.prihlaska button:hover{
+  background-color: #107344;
+}
+.prihlaska button i{
+  margin-right: 10px;
+}
+
+.prihlaska .select2-container{
+  width: 100% !important;
+}
+
+.prihlaska .select2-selection__rendered{
+  margin: auto 0;
+  font-size: 20px;
+  vertical-align: center;
+}
+
+.prihlaska .select2-selection__arrow{
+  position: relative !important;
+}
+
+.prihlaska .select2-selection{
+  border-radius: 0;
+  border: 2px #14a25f solid;
+  padding: 10px 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+  background-color: #14a25f !important;
+}
+
+.prihlaska-warn{
+  margin: 4px auto;
+  padding: 8px 12px;
+  border: 2px solid orange;
+  background-color: yellow;
+  color: black;
+  display: block;
+  width: 600px;
+  max-width: 100%;
+  box-sizing: border-box;
+}

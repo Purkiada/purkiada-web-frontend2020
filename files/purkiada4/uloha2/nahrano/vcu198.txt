@@ -1,0 +1,61 @@
+vcu198
+---------
+*** hvezdice
+
+*** schody
+
+*** kriz
+penup
+right 180
+back 45
+forward 45
+pendown
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+vcu198
+---------
+*** hvezdice
+
+*** schody
+right 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+*** kriz
+

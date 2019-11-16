@@ -1,0 +1,49 @@
+body{
+	margin:auto;
+	background-image:url("../img/design.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#C0C0C0;
+}
+#draggable{
+	width:75px;
+	height:75px;
+}
+#draggable:hover{
+	opacity:0.9;
+}
+#story{
+	text-align:center;
+	background-color:#bdbdbd;
+}
+.game-img{
+	width:250px;
+	height:250px;
+}
+.ico-decision{
+	width:75px;
+	height:75px;
+}
+a{
+	text-decoration:none;
+}
+area:hover{
+	cursor:pointer;
+}
+/*
+	Načítání
+*/
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color:#C0C0C0;
+    background-image: url("../img/preloading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+}

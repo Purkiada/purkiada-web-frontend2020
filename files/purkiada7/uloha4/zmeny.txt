@@ -1,0 +1,17 @@
+Pøidána fuknce na blokování naèítání zpìtné stránky
+Upravena èeština a index
+Obrázky zmìnìny a zmenšené jsou pøímo už ve složce a nezmenšují se csskem
+Tabulky pøerozdìleny do dvou sloupcù a pøebarveny
+Všechny tabulky vycentrovány
+U úlohy dva, bylo zmìnìno 1 pole s otázkou,odpovìd zùstala
+Opravena možnost upravit si body v url na stránce result.php
+Odstanìna stránka 404 a .htaccess soubor
+Byly upraveny scripty a soubory
+Byly dopsány funkce na detekci podvádìní
+Vyøešeno u nìkterých prohlížeèù problém s najetím na area se nezobrazila ikonka ruky.
+-----------------
+Upravena èeština
+Zlepšení scriptu na blokování vracení se v stránce
+-----------------
+Zlepšena èeština
+Upraveny scripty a uloha 3

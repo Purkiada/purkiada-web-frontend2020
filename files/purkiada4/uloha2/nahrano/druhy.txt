@@ -1,0 +1,34 @@
+druhy-ukl
+*** hvezdice
+jedna 
+  dve
+honza jde
+*** schody
+
+*** kriz
+nese pytel
+ mouky
+druhy
+---------
+*** hvezdice
+for ()
+{
+ vbgty
+}
+*** schody
+hjoku
+bghyu
+*** kriz
+
+druhy
+---------
+*** hvezdice
+nmkui
+for
+klou {
+{
+}
+*** schody
+
+*** kriz
+

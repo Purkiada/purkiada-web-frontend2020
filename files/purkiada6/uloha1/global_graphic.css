@@ -1,0 +1,55 @@
+/* CSS Document */
+body {
+  color: green;
+  font-style: Consolas;
+  background-color: #000000;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div {
+  border-color: #000000;
+  width: 1024px;
+  text-align: center;
+  margin: auto;
+  padding: 2px;
+}
+
+.level{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 22px;
+}
+
+.main{
+  border-style: solid;
+  border-width: 4px;
+}
+
+.add {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: rgb(173,173,173);
+  width: 800px;
+}
+
+span.authority{
+  text-align: right;
+  color: rgb(173,173,173);
+}
+
+.yolopowa {
+  color: green;
+  font-style: Consolas;
+  background-color: #000000;
+}
+
+.fake {
+  background-color: #000000;
+}
+
+.zpet {   
+  font-size: 12px;
+  color: green;
+}

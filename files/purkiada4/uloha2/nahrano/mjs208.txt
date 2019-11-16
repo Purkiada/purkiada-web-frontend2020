@@ -1,0 +1,40 @@
+mjs208
+---------
+*** hvezdice
+forward 100
+home
+repeat 5 [
+left 45
+forward 100
+]
+right 45
+
+*** schody
+right 45
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+left 90
+forward 50
+right 90
+forward 50
+*** kriz
+repeat 4 [
+forward 50
+left 90
+forward 150
+left 90]
+right 270
+forward 50
+left 90
+forward 50
+repeat 4[
+right 90
+forward 50
+right 90
+forward 150]

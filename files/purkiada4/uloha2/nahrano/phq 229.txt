@@ -1,0 +1,9 @@
+phq 229
+---------
+*** hvezdice
+forward 100 left 180 forward 200 left 180 forward 100 left 90 forward 120 left 180 forward 240 back 120 right 140 forward 100 left 180 forward 200 back 100 right 90 forward 100 right 180 forward 200 ht
+*** schody
+forward 35 left 90 forward 50 right 90 forward 35 left 90 forward 50 home right 180 forward 50 right 90 forward 35 ht
+*** kriz
+forward 100 right 90 forward 100 right 90 forward 300 right 90 forward 100 right 90 forward 200 right 90 forward 200 right 90 forward 100 right 90 forward 300 right 90 forward 100 right 90 forward 300 ht
+

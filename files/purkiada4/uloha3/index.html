@@ -1,0 +1,68 @@
+<?php  
+  header("Content-type: text/html; charset=utf-8");  
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Purkiáda 2013 - Soutěž v informačních a komunikačních technologiích</title>
+    <link rel="stylesheet" type="text/css" href="http://purkiada.sspbrno.cz/css/main.css" media="screen" />
+</head>
+
+  <body>
+  <div id="hlavicka">
+	<div>
+    	<a href="/"><h1 title="Purkiáda 2013 - Soutěž v informačních a komunikačních technologiích">
+        <strong>Purkiáda 2013 - Soutěž v informačních a komunikačních technologiích</strong></h1></a>               
+	</div>
+    <hr />
+</div>
+
+<div id="telo">  
+  
+<script>
+  function zobraz(){
+    document.getElementById("dec").style.display = "inline";
+}
+</script>
+  
+  <h2>3 Přiřadit k sobě čísla v různých číselných soustavách</h2>
+  <p>Ve sloupečcích máš vždy 4 čísla napsaná v dané číselné soustavě.
+  Přiřaď k sobě čísla stejné hodnoty v binární (dvojkové), v hexadecimální (šestnáctkové) a v dekadické (desítkové) soustavě.
+  Zapiš do záznamového listu. </p>
+  <p>Každé číslo v desítkové soustavě odpovídá jednomu písmenu v tabulce. Pokus se ze znaků složit známé slovo, to pak zapiš do záznamového listu.<br>
+  </p>
+  <hr>
+  <center><iframe 
+  src="tabulka.html"
+  width="884px"
+  height="100px"
+  marginwidth="0"
+  marginheight="0"
+  scrolling=no
+  frameborder=0>
+  </iframe>
+  </div>
+ <br>
+
+ <div id="main" style="hight: 500px; text-align: center;">
+  <br>
+	<div id="dec" style="position: relative; float: left; width: 200px; display: none;">
+  <iframe style="position: absolute; left: 90px; top: 5px;" src="dec.html" height="200px" marginwidth="0" marginheight="0" scrolling=no frameborder=0>
+	  </iframe>
+	 </div>
+																  
+	<div id="bin" style="position: relative; float: left; width: 200px;">
+  <iframe style="position: absolute; left: 500px; top: 5px;" src="bin.html" height="200px" marginwidth="0" marginheight="0" scrolling=no frameborder=0>
+	  </iframe>
+	</div>  
+
+	<div id="hex" style="position: relative; float: left; width: 200px;">
+  <iframe style="position: absolute; left: 900px; top: 5px;" src="hex.html" height="200px" marginwidth="0" marginheight="0" scrolling=no frameborder=0>
+	  </iframe>
+	</div>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <button onclick="zobraz()">Nápověda</button>
+</div>
+  </body>
+</html>

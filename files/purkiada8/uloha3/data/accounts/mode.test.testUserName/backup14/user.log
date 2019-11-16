@@ -1,0 +1,3 @@
+2018-01-07 20:27:48 -> User mode.test.testUserName logged in.
+2018-01-07 20:29:18 -> Handled EnvironmentCreate "ship:user"
+2018-01-07 20:29:18 -> Handled GetWelcomeText of "user@ship"

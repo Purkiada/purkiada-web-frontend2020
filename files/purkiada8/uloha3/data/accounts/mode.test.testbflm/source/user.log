@@ -1,0 +1,8 @@
+2018-01-07 23:32:15 -> User mode.test.testbflm logged in.
+2018-01-07 23:33:09 -> Handled EnvironmentCreate "ship:user"
+2018-01-07 23:33:09 -> Handled GetWelcomeText of "user@ship"
+2018-01-07 23:33:57 -> Handled Command "network"
+2018-01-07 23:34:36 -> Handled Command "--help"
+2018-01-07 23:34:45 -> Handled Command "help"
+2018-01-07 23:35:12 -> Handled Command "ls -al "
+2018-01-07 23:35:12 -> Handled Command "ll"

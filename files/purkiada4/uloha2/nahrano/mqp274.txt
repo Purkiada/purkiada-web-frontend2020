@@ -1,0 +1,75 @@
+mqp274
+---------
+*** hvezdice
+fd 100
+home
+rt 90
+fd 100
+home
+rt 180
+fd 100
+home
+lt 90
+fd 100
+home
+lt 45
+fd 100
+home
+rt 45
+rt 45
+fd 100
+home
+rt 90
+fd 100
+home
+rt 90
+fd 100
+home
+lt 45
+*** schody
+lt 90
+fd 90
+rt 90
+fd 90
+lt 90
+fd 90
+home
+lt 90
+fd 90
+lt 90
+fd 90
+rt 90
+fd 90
+*** kriz
+forward 80
+home
+rt 90
+fd 80
+lt 90
+fd 80
+lt 90
+fd 80
+home
+fd 80
+lt 90
+fd 80
+lt 90
+fd 80
+rt 90
+fd 80
+lt 90
+fd 80
+lt 90
+fd 80
+rt 90
+fd 80
+lt 90
+fd 80
+lt 90
+fd 80
+lt 90
+fd 80
+rt 90
+fd 80
+rt 90
+fd 80

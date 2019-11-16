@@ -1,0 +1,101 @@
+/* CSS Document */
+@font-face {
+  font-family: 'Wallpoet';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Wallpoet'), url(http://themes.googleusercontent.com/static/fonts/wallpoet/v5/36uu2cNBs_030nkiOViRZ_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+body {
+  background: #000;
+  color: lime;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background: #000;
+  color: lime;
+  font-size: 15px;
+  text-align: center;
+  border: 3px solid lime;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 10px;
+}
+
+select {
+  background: #000;
+  width: 200px;
+  color: lime;
+  font-size: 15px;
+  text-align: center;
+  border: 3px solid lime;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  font-family: 'Wallpoet';
+  font-size: 15px;
+  background: #000;
+  color: lime;
+  text-align: center;
+  border: 3px solid lime;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 10px;
+}
+
+div {
+  border-color: black;
+  width: 1024px;
+  text-align: center;
+  margin: auto;
+  padding: 2px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.level{
+  font-family: 'Wallpoet';
+}
+
+.main{
+  border: 4px solid lime;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.add {
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-width: 1px;
+  border-style: none;
+  border-color: rgb(173,173,173);
+  width: 770px;
+}
+
+hr {
+  border: 0;
+  background-color: lime;
+  height: 3px;
+  color: lime;
+}
+
+span.authority{
+  text-align: right;
+  color: lime;
+  font-size: 15px;
+  font-family: 'Wallpoet';
+}

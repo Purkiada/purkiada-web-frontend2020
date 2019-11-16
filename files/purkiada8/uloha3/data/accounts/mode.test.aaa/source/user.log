@@ -1,0 +1,6 @@
+2017-02-01 15:03:08 -> User mode.test.aaa logged in.
+2017-02-01 15:06:00 -> Handled EnvironmentCreate "ship:user"
+2017-02-01 15:06:00 -> Handled GetWelcomeText of "user@ship"
+2017-02-01 15:06:18 -> Handled Command "44"
+2017-02-01 15:15:22 -> Handled EnvironmentCreate "ship:user"
+2017-02-01 15:15:22 -> Handled GetWelcomeText of "user@ship"

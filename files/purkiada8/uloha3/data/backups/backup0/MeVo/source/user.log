@@ -1,0 +1,10 @@
+2017-01-26 11:32:12 -> User MeVo logged in.
+2017-01-26 11:32:16 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 11:32:16 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 11:32:23 -> Handled Command "network --status"
+2017-01-26 11:32:51 -> Handled Command "network --connect "DeathStar""
+2017-01-26 11:33:01 -> Handled Command "network --status"
+2017-01-26 11:35:21 -> Handled Command "ssh 127.0.0.1"
+2017-01-26 11:48:36 -> Handled Command "network --status"
+2017-01-26 11:49:02 -> Handled Command "edit --help"
+2017-01-26 11:49:14 -> Handled Command "edit wi-fi"

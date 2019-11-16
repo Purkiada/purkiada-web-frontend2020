@@ -1,0 +1,79 @@
+masm2013
+---------
+*** hvezdice
+clean
+home
+right 90
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+home
+left 90
+forward 100
+home
+left 45
+forward 100
+home
+right 90
+forward 100
+home
+right 90
+forward 100
+home
+right 90
+forward 100
+home
+*** schody
+clean
+home
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+*** kriz
+clean
+home
+forward 100
+right 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 180
+forward 300
+left 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+right 90
+forward 100
+left 90
+forward 100
+home
+left 180
+forward 100
+left 90
+forward 100
+left 90
+forward 100
+home
+

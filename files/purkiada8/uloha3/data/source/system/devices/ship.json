@@ -1,0 +1,232 @@
+{
+    "name": "ship",
+    "groups": [
+        "root",
+        "user"
+    ],
+    "accounts": {
+        "names": ["root", "user"],
+        "data": {
+            "root": {
+                "admin": true,
+                "password": null,
+                "groups": [
+                    "root"
+                ],
+                "commands": [
+                    {"name": "basic", "type": "set"}
+                ],
+                "homeDirectory": "/root",
+                "welcomeText": [],
+                "exitText": []
+            },
+            "user": {
+                "admin": false,
+                "password": "",
+                "groups": [
+                    "user"
+                ],
+                "commands": [
+                    {"name": "basic", "type": "set"},
+                    {"name": "files", "type": "set"},
+                    {"name": "network", "type": "set"}
+                ],
+                "homeDirectory": "/home/user",
+                "welcomeText": [
+                    "<p>Vítá Vás palubní systém 2.0 LTS (GNU/Linux 3.2.0-98-generic-pae i686)<p><br>",
+
+                    "<p>Pro seznam dostupných příkazů použíjte příkaz <b>help</b>.</p>",
+                    "<p>Pro nápovědu k jednotlivým příkazům zadejte název příkazu, o kterém chcete zjistit více informací ",
+                    "a jako parametr zadejte <b>--help</b>, např. <b>exit --help</b> zobrazí podrobnou nápovědu, ",
+                    "jak používat příkaz <b>exit</b>.</p><br>",
+
+                    "<p>Pokud pracujete s linuxovým terminálem poprvé, doporučuji Vám použít příkaz ",
+                    "<span style='color: lightcoral'><b>bash --help</b></span>, ",
+                    "který Vám vypíše podrobné informace, jak terminál funguje a jak ho používat.</p>",
+                    "<p>Pokud již s linuxovým terminálem máte nějaké zkušenosti, doporučuji Vám použít příkaz ",
+                    "<span style='color: lightcoral'><b>bash --diff</b></span>, ",
+                    "který Vám vypíše zásadní rozdíly mezi linuxovým terminálem a tímto palubním systémem.</p><br>",
+
+                    "<p>V případě, že se vám podaří poškodit, nebo smazat některá data, která jsou potřeba pro úspěšné dokončení úlohy, ",
+                    "můžete použít příkaz <b>revert-time</b>, který smaže váš postup plnění úlohy včetně všech dat a umožní vám tak začít od začátku.</p>"
+                ],
+                "exitText": [
+                    "<p>Odhlášení proběhlo úspěšne.</p>"
+                ]
+            }
+        }
+    },
+    "network": [
+        {
+            "id": "wifi-death_star",
+            "enabled": false,
+            "allowChange": true
+        }
+    ],
+    "hasFiles": true,
+    "files": [
+        {
+            "name": "bin",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "boot",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "dev",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "etc",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "home",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": [
+                {
+                    "name": "user",
+                    "owner": "user",
+                    "group": "user",
+                    "permissions": "d755",
+                    "content": [
+                        {
+                            "name": "Documents",
+                            "owner": "user",
+                            "group": "user",
+                            "permissions": "d755",
+                            "content": []
+                        },
+                        {
+                            "name": "Downloads",
+                            "owner": "user",
+                            "group": "user",
+                            "permissions": "d755",
+                            "content": []
+                        },
+                        {
+                            "name": "Music",
+                            "owner": "user",
+                            "group": "user",
+                            "permissions": "d755",
+                            "content": []
+                        },
+                        {
+                            "name": "Videos",
+                            "owner": "user",
+                            "group": "user",
+                            "permissions": "d755",
+                            "content": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lib",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "lost+found",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": []
+        },
+        {
+            "name": "media",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": []
+        },
+        {
+            "name": "mnt",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d755",
+            "content": []
+        },
+        {
+            "name": "opt",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "proc",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "root",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "run",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "sbin",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "sys",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "tmp",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d777",
+            "content": []
+        },
+        {
+            "name": "usr",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        },
+        {
+            "name": "var",
+            "owner": "root",
+            "group": "root",
+            "permissions": "d700",
+            "content": []
+        }
+    ]
+}

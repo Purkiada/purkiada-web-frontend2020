@@ -1,0 +1,8 @@
+2017-01-26 10:36:10 -> User BoHo logged in.
+2017-01-26 10:36:48 -> Handled EnvironmentCreate "ship:user"
+2017-01-26 10:36:48 -> Handled GetWelcomeText of "user@ship"
+2017-01-26 10:37:20 -> Handled Command "network"
+2017-01-26 10:37:30 -> Handled Command "network --help"
+2017-01-26 10:37:59 -> Handled Command "network --status"
+2017-01-26 10:38:04 -> Handled Command "bash --diff"
+2017-01-26 10:40:06 -> Handled Command "revert-time"
