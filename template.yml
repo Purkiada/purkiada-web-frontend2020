@@ -1,0 +1,29 @@
+head: |
+  \t\t<meta name="viewport" content="width=device-width, initial-scale=1">
+  \t\t<link rel="stylesheet" href="/css/select2.min.css">
+
+  \t\t<link rel="stylesheet" href="/css/style.css">
+  \t\t<link rel="shortcut icon" href="/img/icon.ico">
+  \t\t<script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+  \t\t<script src="/js/jquery-3.4.1.min.js"></script>
+
+  \t\t<script src="/js/API.js"></script>
+  \t\t<script src="/js/select2.min.js"></script>
+######
+nav: |
+  \t\t\t<a href="/" class="logo"><img src="/img/purkiada_logo.svg"></a>
+  \t\t\t<i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
+  \t\t\t<ul>
+  \t\t\t\t<li>
+  \t\t\t\t\t<a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i class="fas fa-times fa-lg"></i></a>
+  \t\t\t\t</li>
+  \t\t\t\t<li>
+  \t\t\t\t\t<a href="/"><i class="fas fa-home"></i>Hlavní strana</a>
+  \t\t\t\t</li>
+  \t\t\t\t<li>
+  \t\t\t\t\t<a href="/prihlaska.html" class="active"><i class="fas fa-file-signature"></i>Přihláška</a>
+  \t\t\t\t</li>
+  \t\t\t\t<li>
+  \t\t\t\t\t<a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
+  \t\t\t\t</li>
+  \t\t\t</ul>
