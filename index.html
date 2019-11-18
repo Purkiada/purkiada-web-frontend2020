@@ -2,10 +2,22 @@
 <html lang="cs">
   <head>
     <meta charset="utf-8">
-    <title>Purkiáda 2020</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Purkiáda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/select2.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Only for index.html, dont ask me why, idk, I'm just a programmer; designer made it this way -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!--/ Only for index.html, dont ask me why, idk, I'm just a programmer; designer made it this way -->
+
     <link rel="shortcut icon" href="img/icon.ico">
     <script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+
+    <script src="/js/API.js"></script>
+    <script src="/js/select2.min.js"></script>
+
   </head>
   <body>
     <div class="mainHeader">
@@ -19,15 +31,19 @@
       </div>
       <nav>
         <a href="#" class="logo"><img src="img/purkiada_logo.svg"></a>
+        <i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
         <ul>
           <li>
-            <a href="prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
+            <a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i class="fas fa-times fa-lg"></i></a>
           </li>
           <li>
-            <a href="zadani.html"><i class="fas fa-history"></i>Minulé ročníky</a>
+            <a href="#" class="active"><i class="fas fa-home"></i>Hlavní strana</a>
           </li>
           <li>
-            <a href="#"><i class="fas fa-school"></i>Informace o škole</a>
+            <a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
+          </li>
+          <li>
+            <a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
           </li>
         </ul>
       </nav>

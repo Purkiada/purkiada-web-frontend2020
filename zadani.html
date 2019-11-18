@@ -3,25 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Historie zadání | Purkiáda</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/select2.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="img/icon.ico">
     <script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+
+    <script src="/js/API.js"></script>
+    <script src="/js/select2.min.js"></script>
+
   </head>
   <body>
     <nav>
       <a href="index.html" class="logo"><img src="img/purkiada_logo.svg"></a>
+      <i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
       <ul>
         <li>
-          <a href="index.html"><i class="fas fa-home"></i>Hlavní strana</a>
+          <a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i class="fas fa-times fa-lg"></i></a>
         </li>
         <li>
-          <a href="prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
+          <a href="/index.html"><i class="fas fa-home"></i>Hlavní strana</a>
+        </li>
+        <li>
+          <a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
         </li>
         <li>
           <a href="#" class="active"><i class="fas fa-history"></i>Historie zadání</a>
-        </li>
-        <li>
-          <a href="#"><i class="fas fa-school"></i>Informace o škole</a>
         </li>
       </ul>
     </nav>

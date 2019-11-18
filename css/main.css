@@ -23,6 +23,11 @@ body{
   position: relative;
   background-color: #14a25f;
 }
+@media only screen and (max-width: 760px){
+  .mainHeader{
+    flex-direction: column-reverse;
+  }
+}
 .mainHeadline{
   display: flex;
   flex-direction: column;
@@ -74,6 +79,21 @@ body{
   object-fit: cover;
   opacity: .75;
 }
+@media only screen and (max-width: 760px){
+  .mainHeadline{
+    width: 100%;
+  }
+  .headlines{
+    margin: auto;
+    padding: 8px;
+    height: auto;
+  }
+  .headlines h1{
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin: 8px auto;
+  }
+}
 nav{
   display: flex;
   flex-direction: column;
@@ -94,6 +114,7 @@ nav ul{
   padding: 0;
   width: 100%;
   text-align: center;
+  display: block;
 }
 nav ul li{
   padding: 15px;
@@ -113,6 +134,18 @@ nav ul li a{
 }
 nav ul li a i{
   margin-right: 5px;
+}
+@media only screen and (max-width: 760px){
+  nav .logo{
+    margin: 8px;
+  }
+  nav{
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 main{
   padding: 2rem 3rem;

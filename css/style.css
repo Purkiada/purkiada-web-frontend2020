@@ -25,13 +25,28 @@ nav{
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 1rem 2rem;
+  z-index: 999;
 }
 nav .logo img{
   height: 76px;
   width: auto;
   margin: auto auto auto 0;
 }
+#nav-toggle{
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+#nav-close{
+  display: none;
+}
 nav ul{
+  background-color: #14a25f;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -40,6 +55,7 @@ nav ul{
   margin: auto 0 auto auto;
   padding: 0;
 }
+
 nav ul li{
   margin: auto 5px;
   padding: 0;
@@ -50,6 +66,40 @@ nav ul li a{
   padding: 35px 15px;
   transition: .2s;
   margin: 0;
+  display: block;
+}
+@media only screen and (max-width: 760px){
+  #nav-toggle{
+    display: flex;
+  }
+  #nav-close{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 6px black;
+    transform: translateX(100%);
+    transition: transform .5s;
+  }
+
+  nav ul.show{
+    transform: translateX(0);
+  }
+
+  nav ul li{
+    margin: 5px;
+    width: 100%;
+  }
+
+  nav ul li a{
+    width: 100%;
+  }
 }
 nav ul li .active{
   background-color: #149457;
@@ -68,6 +118,11 @@ main{
   margin: 0;
   padding: 1rem 2rem;
   color: #1c1c1c;
+}
+@media only screen and (max-width: 740px){
+  main{
+    padding: 1rem 1rem;
+  }
 }
 main .headline{
   display: flex;
@@ -114,9 +169,11 @@ main .info li{
   justify-content: center;
   margin: auto;
   margin: 25px auto;
+  width: 100%;
 }
 .zadani-item{
   width: 360px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,6 +183,11 @@ main .info li{
   border: 5px solid white;
   transition: .1s;
   background-color: #14a25f;
+}
+@media only screen and (max-width: 740px){
+  .zadani-item{
+    margin: 16px 0px;
+  }
 }
 .zadani-item:hover, .zadani-item:focus{
   border-color: #107344;
@@ -378,12 +440,17 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   border: none;
   padding: 0;
   font-weight: 300;
+  box-sizing: border-box;
 }
 .prihlaska div i{
   background-color: #14a25f;
   color: white;
   margin: 0;
   padding: 20px;
+  width: 64px;
+  height: 64px;
+  box-sizing: border-box;
+  display: inline-block;
 }
 .prihlaska div input, .prihlaska div select{
   border: 2px #14a25f solid;
@@ -391,6 +458,7 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   font-size: 20px;
   margin: 0;
   width: 100%;
+  box-sizing: border-box;
 }
 .prihlaska button{
   color: white;
@@ -404,6 +472,7 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   padding: 10px 20px;
   transition: .2s;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .prihlaska button:hover{
   background-color: #107344;
@@ -440,7 +509,7 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   background-color: #14a25f !important;
 }
 
-.prihlaska-warn{
+.prihlaska-warn,.prihlaska-success{
   margin: 4px auto;
   padding: 8px 12px;
   border: 2px solid orange;
@@ -450,4 +519,9 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   width: 600px;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.prihlaska-success{
+  border-color: green;
+  background-color: lime;
 }
