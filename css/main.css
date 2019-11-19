@@ -124,9 +124,6 @@ nav ul li{
   font-weight: normal;
   transition: .2s;
 }
-nav ul li:hover, nav ul li:focus{
-  background-color: #107344;
-}
 nav ul li a{
   color: white;
   text-decoration: none;

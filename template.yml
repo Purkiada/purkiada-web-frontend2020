@@ -21,7 +21,7 @@ nav: |
   \t\t\t\t\t<a href="/"><i class="fas fa-home"></i>Hlavní strana</a>
   \t\t\t\t</li>
   \t\t\t\t<li>
-  \t\t\t\t\t<a href="/prihlaska.html" class="active"><i class="fas fa-file-signature"></i>Přihláška</a>
+  \t\t\t\t\t<a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
   \t\t\t\t</li>
   \t\t\t\t<li>
   \t\t\t\t\t<a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
