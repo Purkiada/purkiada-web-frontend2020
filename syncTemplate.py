@@ -4,7 +4,7 @@ import yaml
 
 template = yaml.load(open("template.yml"))
 
-targets = ["prihlaska.html", "zadani.html"]
+targets = ["prihlaska.html", "zadani.html", "404.html", "403.html", "50x.html"]
 
 for root, dirs, files in os.walk("purkiada/"):
     for file in files:

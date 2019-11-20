@@ -41,7 +41,7 @@
       <h2>Potvrzení přihlášky</i></h2>
       <hr>
     </div>
-    <p style="margin: auto;">Je potřeba vyplnit Vaši přihlášku, stačí jen kliknout na talčítko níže .</p>
+    <p style="margin: auto;">Je potřeba vyplnit Vaši přihlášku, stačí jen kliknout na tlačítko níže .</p>
     <form class="prihlaska" id="prihlaska-form">
       <button id="prihlaska-submit" type="submit" name="sumbit">Potvrdit</i></button>
     </form>
@@ -72,7 +72,7 @@
           }
           return parms;
         }
-        
+
         $prihlaska.submit((ev) => {
           ev.preventDefault();
 
@@ -80,7 +80,6 @@
 
           API.confirmStudent({ id: parseURLParams(window.location.href).id }).always((res) => {
             $(".prihlaska-warn").remove();
-            console.log(res);
 
             if (res == "ok") {
               $button.html(`<i class="fas fa-check"></i> Potvrzeno!`).attr("disabled", "disabled");
