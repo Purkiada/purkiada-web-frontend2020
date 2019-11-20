@@ -3,22 +3,31 @@
   font-family: Roboto;
   font-weight: lighter;
 }
+
 @font-face {
   src: url(../webfonts/Roboto-Regular.ttf) format("truetype");
   font-family: Roboto;
   font-weight: normal;
 }
-*{
+
+* {
   font-family: Roboto, sans-serif;
 }
-body{
+
+*:focus {
+  outline: 0;
+}
+
+body {
   margin: 0;
   padding: 0;
 }
-html, body{
+
+html, body {
   height: 100%;
 }
-nav{
+
+nav {
   background-color: #14a25f;
   display: flex;
   flex-direction: row;
@@ -27,12 +36,14 @@ nav{
   padding: 1rem 2rem;
   z-index: 999;
 }
-nav .logo img{
+
+nav .logo img {
   height: 76px;
   width: auto;
   margin: auto auto auto 0;
 }
-#nav-toggle{
+
+#nav-toggle {
   width: 42px;
   display: flex;
   justify-content: center;
@@ -42,10 +53,12 @@ nav .logo img{
   cursor: pointer;
   display: none;
 }
-#nav-close{
+
+#nav-close {
   display: none;
 }
-nav ul{
+
+nav ul {
   background-color: #14a25f;
   list-style-type: none;
   display: flex;
@@ -56,11 +69,12 @@ nav ul{
   padding: 0;
 }
 
-nav ul li{
+nav ul li {
   margin: auto 5px;
   padding: 0;
 }
-nav ul li a{
+
+nav ul li a {
   color: white;
   text-decoration: none;
   padding: 35px 15px;
@@ -68,14 +82,15 @@ nav ul li a{
   margin: 0;
   display: block;
 }
-@media only screen and (max-width: 760px){
-  #nav-toggle{
+
+@media only screen and (max-width: 760px) {
+  #nav-toggle {
     display: flex;
   }
-  #nav-close{
+  #nav-close {
     display: block;
   }
-  nav ul{
+  nav ul {
     position: fixed;
     top: 0;
     right: 0;
@@ -87,30 +102,31 @@ nav ul li a{
     transform: translateX(100%);
     transition: transform .5s;
   }
-
-  nav ul.show{
+  nav ul.show {
     transform: translateX(0);
   }
-
-  nav ul li{
+  nav ul li {
     margin: 5px;
     width: 100%;
   }
-
-  nav ul li a{
+  nav ul li a {
     width: 100%;
   }
 }
-nav ul li .active{
+
+nav ul li .active {
   background-color: #149457;
 }
-nav ul li a:hover, nav ul li a:focus{
+
+nav ul li a:hover, nav ul li a:focus {
   background-color: #107344;
 }
-nav ul li a i{
+
+nav ul li a i {
   margin-right: 10px;
 }
-main{
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,12 +135,14 @@ main{
   padding: 1rem 2rem;
   color: #1c1c1c;
 }
-@media only screen and (max-width: 740px){
-  main{
+
+@media only screen and (max-width: 740px) {
+  main {
     padding: 1rem 1rem;
   }
 }
-main .headline{
+
+main .headline {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -132,7 +150,8 @@ main .headline{
   position: relative;
   align-items: center;
 }
-main .headline hr{
+
+main .headline hr {
   background-color: #14a25f;
   color: #14a25f;
   width: 70%;
@@ -141,7 +160,8 @@ main .headline hr{
   position: absolute;
   z-index: -1;
 }
-main .headline h2{
+
+main .headline h2 {
   font-size: 38px;
   text-align: center;
   color: #14a25f;
@@ -150,20 +170,24 @@ main .headline h2{
   text-transform: uppercase;
   font-weight: 500;
 }
-main .headline h2 i{
+
+main .headline h2 i {
   margin-right: 10px;
 }
-main .info{
+
+main .info {
   width: 70%;
   margin: 15px auto;
   list-style-type: none;
 }
-main .info li{
+
+main .info li {
   border-left: 3px #14a25f solid;
   margin: 15px 0;
   padding: 5px 10px;
 }
-#zadani{
+
+#zadani {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -171,7 +195,8 @@ main .info li{
   margin: 25px auto;
   width: 100%;
 }
-.zadani-item{
+
+.zadani-item {
   width: 360px;
   max-width: 100%;
   display: flex;
@@ -184,18 +209,22 @@ main .info li{
   transition: .1s;
   background-color: #14a25f;
 }
-@media only screen and (max-width: 740px){
-  .zadani-item{
+
+@media only screen and (max-width: 740px) {
+  .zadani-item {
     margin: 16px 0px;
   }
 }
-.zadani-item:hover, .zadani-item:focus{
+
+.zadani-item:hover, .zadani-item:focus {
   border-color: #107344;
 }
-.zadani-item:hover p, .zadani-item:focus p{
+
+.zadani-item:hover p, .zadani-item:focus p {
   background-color: #107344;
 }
-.zadani-item p{
+
+.zadani-item p {
   color: white;
   background-color: #14a25f;
   font-size: 24px;
@@ -206,15 +235,18 @@ main .info li{
   text-decoration: none;
   transition: .1s;
 }
-.zadani-item p span{
+
+.zadani-item p span {
   font-weight: 300;
 }
-.zadani-item img{
+
+.zadani-item img {
   width: 100%;
   height: auto;
   margin: auto;
 }
-footer{
+
+footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -222,36 +254,43 @@ footer{
   margin: 25px auto;
   padding: 0.25rem 1rem;
 }
-.copyright{
+
+.copyright {
   display: flex;
   flex-direction: row;
   margin: auto auto auto 0;
 }
-.copyright p{
+
+.copyright p {
   margin: auto 5px;
   font-weight: 300;
 }
-.copyright img{
+
+.copyright img {
   height: 32px;
   width: auto;
   margin: auto 5px;
 }
-footer .social-icons{
+
+footer .social-icons {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: auto 0 auto auto;
 }
-footer .social-icons a{
+
+footer .social-icons a {
   color: #14a25f;
   font-size: 32px;
   margin: auto 10px;
   transition: .2s;
 }
-footer .social-icons a:hover, footer .social-icons a:focus{
+
+footer .social-icons a:hover, footer .social-icons a:focus {
   color: #107344;
 }
-.rocnik-mainheadline{
+
+.rocnik-mainheadline {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -259,7 +298,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   width: 100%;
   height: 256px;
 }
-.rocnik-mainheadline p{
+
+.rocnik-mainheadline p {
   margin: 75px auto;
   text-align: center;
   font-size: 64px;
@@ -271,28 +311,33 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   border: #14a25f 10px solid;
   padding: 10px;
 }
-.rocnik-mainheadline img{
+
+.rocnik-mainheadline img {
   width: 100%;
   z-index: -1;
   object-fit: cover;
   object-position: 50% 40%;
   filter: grayscale(75%);
 }
-.default p{
+
+.default p {
   color: white;
   border: white 10px solid;
 }
-.default img{
+
+.default img {
   filter: grayscale(0%);
 }
-.rocnik-info{
+
+.rocnik-info {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   margin: 25px auto;
 }
-.rocnik-info p{
+
+.rocnik-info p {
   font-size: 18px;
   font-weight: bold;
   margin: auto 50px;
@@ -300,17 +345,20 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   border-right: 3px #14a25f solid;
   border-left: 3px #14a25f solid;
 }
-.rocnik-info p span{
+
+.rocnik-info p span {
   font-weight: 300;
 }
-.rocnik-soubory{
+
+.rocnik-soubory {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin: 25px auto;
 }
-.rocnik-soubory a{
+
+.rocnik-soubory a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -328,20 +376,25 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   text-align: center;
   transition: .2s;
 }
-.rocnik-soubory a:hover{
+
+.rocnik-soubory a:hover {
   color: #107344;
   border-color: #107344;
 }
-.rocnik-soubory a i{
+
+.rocnik-soubory a i {
   font-size: 28px;
 }
-.rocnik-soubory a i:first-of-type{
+
+.rocnik-soubory a i:first-of-type {
   margin: auto 50px auto 5px;
 }
-.rocnik-soubory a i:last-of-type{
+
+.rocnik-soubory a i:last-of-type {
   margin: auto 5px auto 50px;
 }
-.rocnik-ulohy{
+
+.rocnik-ulohy {
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -350,7 +403,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   margin: 25px auto;
   align-items: baseline;
 }
-.rocnik-ulohy div{
+
+.rocnik-ulohy div {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -360,14 +414,16 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   border-radius: 8px;
   margin: 25px;
 }
-.rocnik-ulohy div p{
+
+.rocnik-ulohy div p {
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;
   color: white;
   margin: 10px auto 25px auto;
 }
-.rocnik-ulohy div a{
+
+.rocnik-ulohy div a {
   text-align: center;
   font-size: 16px;
   margin: 5px auto;
@@ -377,17 +433,21 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   border: 4px white solid;
   transition: .1s;
 }
-.rocnik-ulohy div a span{
+
+.rocnik-ulohy div a span {
   font-size: 12px;
 }
-.rocnik-ulohy div a:hover{
+
+.rocnik-ulohy div a:hover {
   background-color: white;
   color: #14a25f;
 }
-.rocnik-ulohy div a i{
+
+.rocnik-ulohy div a i {
   margin-right: 5px;
 }
-.rocnik-headline{
+
+.rocnik-headline {
   width: 50%;
   font-size: 32px;
   text-align: center;
@@ -400,17 +460,20 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   text-transform: uppercase;
   font-weight: 400;
 }
-.rocnik-headline p{
+
+.rocnik-headline p {
   color: #14a25f;
   background-color: white;
   padding: 10px;
   border-radius: 25px;
   margin: 0 auto;
 }
-.rocnik-headline p i{
+
+.rocnik-headline p i {
   margin-right: 5px;
 }
-.rocnik-headline hr{
+
+.rocnik-headline hr {
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -420,7 +483,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   height: 6px;
   margin: 0;
 }
-.prihlaska{
+
+.prihlaska {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -428,7 +492,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   height: auto;
   width: 100%;
 }
-.prihlaska div{
+
+.prihlaska div {
   width: 600px;
   max-width: 100%;
   display: flex;
@@ -442,7 +507,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   font-weight: 300;
   box-sizing: border-box;
 }
-.prihlaska div i{
+
+.prihlaska div i {
   background-color: #14a25f;
   color: white;
   margin: 0;
@@ -452,7 +518,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   box-sizing: border-box;
   display: inline-block;
 }
-.prihlaska div input, .prihlaska div select{
+
+.prihlaska div input, .prihlaska div select {
   border: 2px #14a25f solid;
   padding: 10px 20px;
   font-size: 20px;
@@ -460,7 +527,8 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   width: 100%;
   box-sizing: border-box;
 }
-.prihlaska button{
+
+.prihlaska button {
   color: white;
   width: 600px;
   max-width: 100%;
@@ -474,28 +542,30 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   cursor: pointer;
   box-sizing: border-box;
 }
-.prihlaska button:hover{
+
+.prihlaska button:hover {
   background-color: #107344;
 }
-.prihlaska button i{
+
+.prihlaska button i {
   margin-right: 10px;
 }
 
-.prihlaska .select2-container{
+.prihlaska .select2-container {
   width: 100% !important;
 }
 
-.prihlaska .select2-selection__rendered{
+.prihlaska .select2-selection__rendered {
   margin: auto 0;
   font-size: 20px;
   vertical-align: center;
 }
 
-.prihlaska .select2-selection__arrow{
+.prihlaska .select2-selection__arrow {
   position: relative !important;
 }
 
-.prihlaska .select2-selection{
+.prihlaska .select2-selection {
   border-radius: 0;
   border: 2px #14a25f solid;
   padding: 10px 20px;
@@ -505,11 +575,11 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   justify-content: space-between;
 }
 
-.select2-container--default .select2-results__option--highlighted[aria-selected]{
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
   background-color: #14a25f !important;
 }
 
-.prihlaska-warn,.prihlaska-success{
+.prihlaska-warn, .prihlaska-success {
   margin: 4px auto;
   padding: 8px 12px;
   border: 2px solid orange;
@@ -521,7 +591,7 @@ footer .social-icons a:hover, footer .social-icons a:focus{
   box-sizing: border-box;
 }
 
-.prihlaska-success{
+.prihlaska-success {
   border-color: green;
   background-color: lime;
 }

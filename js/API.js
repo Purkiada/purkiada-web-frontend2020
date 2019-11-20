@@ -14,4 +14,8 @@ var API = {
   submitStudent: function (data) {
     return $.post(this.endpoint+"/student/new", data, "json");
   },
+
+  confirmStudent: function (data) {
+    return $.get(`${this.endpoint}/student/confirm`, data, "json");
+  },
 }

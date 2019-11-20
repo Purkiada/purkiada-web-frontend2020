@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <title>Potvrzení přihlášky | Purkiáda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/select2.min.css">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="/img/icon.ico">
+  <script src="//kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+
+  <script src="/js/API.js"></script>
+  <script src="/js/select2.min.js"></script>
+</head>
+
+<body style="display: flex; flex-direction: column; ">
+  <nav>
+    <a href="/" class="logo"><img src="/img/purkiada_logo.svg"></a>
+    <i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
+    <ul>
+      <li>
+        <a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i
+            class="fas fa-clipboard-check fa-lg"></i></a>
+      </li>
+      <li>
+        <a href="/"><i class="fas fa-home"></i>Hlavní strana</a>
+      </li>
+      <li>
+        <a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
+      </li>
+      <li>
+        <a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
+      </li>
+    </ul>
+  </nav>
+  <main style="flex-grow: 1; display: flex; flex-direction: column; ">
+    <div class="headline">
+      <h2>Potvrzení přihlášky</i></h2>
+      <hr>
+    </div>
+    <p style="margin: auto;">Je potřeba vyplnit Vaši přihlášku, stačí jen kliknout na talčítko níže .</p>
+    <form class="prihlaska" id="prihlaska-form">
+      <button id="prihlaska-submit" type="submit" name="sumbit">Potvrdit</i></button>
+    </form>
+    <div style="flex-grow: 1; "></div>
+
+    <script>
+      $(document).ready(() => {
+        var $prihlaska = $("#prihlaska-form");
+        var $button = $("#prihlaska-submit");
+        var buttonContent = $button.html();
+
+        function parseURLParams(url) {
+          var queryStart = url.indexOf("?") + 1,
+            queryEnd = url.indexOf("#") + 1 || url.length + 1,
+            query = url.slice(queryStart, queryEnd - 1),
+            pairs = query.replace(/\+/g, " ").split("&"),
+            parms = {}, i, n, v, nv;
+
+          if (query === url || query === "") return;
+
+          for (i = 0; i < pairs.length; i++) {
+            nv = pairs[i].split("=", 2);
+            n = decodeURIComponent(nv[0]);
+            v = decodeURIComponent(nv[1]);
+
+            if (!parms.hasOwnProperty(n)) parms[n] = [];
+            parms[n].push(nv.length === 2 ? v : null);
+          }
+          return parms;
+        }
+        
+        $prihlaska.submit((ev) => {
+          ev.preventDefault();
+
+          $button.html(`Potvrzuji přihlášku ... <i class="fas fa-spinner fa-pulse"></i>`)
+
+          API.confirmStudent({ id: parseURLParams(window.location.href).id }).always((res) => {
+            $(".prihlaska-warn").remove();
+            console.log(res);
+
+            if (res == "ok") {
+              $button.html(`<i class="fas fa-check"></i> Potvrzeno!`).attr("disabled", "disabled");
+              //$(`<p class="prihlaska-success">Ještě je potřeba ověřit e-mail, zkontrolujte svou e-mailovou schránku!</p>`).insertAfter($button);
+
+            } else /*if (res == "not-find-student")*/ {
+              $(`<p class="prihlaska-warn"><i class="fas fa-exclamation-triangle"></i> Vaše přihláška asi nejde najít. Kontaktuje prosím pořadatele.</p>`).insertAfter($button);
+              $button.hide();
+            }
+          });
+
+          return false;
+        })
+
+      });
+
+    </script>
+
+  </main>
+  <footer>
+    <div class="copyright">
+      <img src="/img/ssplogo.svg">
+      <p>© 2019 Střední průmyslová škola Brno, Purkyňova, příspěvková organizace</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/sspbrno"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/Purkynka"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.sspbrno.cz/"><i class="fas fa-globe"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
