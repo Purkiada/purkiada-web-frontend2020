@@ -1,7 +1,7 @@
 /* Purkiáda API Interface */
 
 var API = {
-  endpoint: "https://purkiada.purkynkalife.cz/api",
+  endpoint: "https://admin.purkiada.cz/api",
 
   getVillages: function () {
     return $.get(this.endpoint+"/village/list", {}, "json");
