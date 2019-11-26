@@ -1,117 +1,138 @@
 <!DOCTYPE html>
 <html lang="cs">
-  <head>
-    <meta charset="utf-8">
-    <title>Historie zadání | Purkiáda</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/select2.min.css">
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/img/icon.ico">
-    <script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
-    <script src="/js/jquery-3.4.1.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title>Historie zadání | Purkiáda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/select2.min.css">
 
-    <script src="/js/API.js"></script>
-    <script src="/js/select2.min.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" class="logo"><img src="/img/purkiada_logo.svg"></a>
-      <i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
-      <ul>
-        <li>
-          <a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i class="fas fa-times fa-lg"></i></a>
-        </li>
-        <li>
-          <a href="/"><i class="fas fa-home"></i>Hlavní strana</a>
-        </li>
-        <li>
-          <a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
-        </li>
-        <li>
-          <a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <div class="rocnik-mainheadline">
-        <p>﻿Purkiáda 2019</p>
-        <img src="../img/zadani/banner/matrix.jpg">
-      </div>
-      <div class="rocnik-headline">
-        <p><i class="fas fa-info-circle"></i>Informace o ročníku</p>
-        <hr>
-      </div>
-      <div class="rocnik-info">
-        <p>10. ročník <span>Purkiády</span></p>
-        <p><span>Rok:</span> 2019</p>
-        <p><span>Téma:</span> Metrix</p>
-      </div>
-      <div class="rocnik-headline">
-        <p><i class="fas fa-file-download"></i>Soubory ke stažení</p>
-        <hr>
-      </div>
-      <div class="rocnik-soubory">
-        <a href="../files/purkiada10/zadani-2019.pdf" target="_blank">
-          <i class="fas fa-file-pdf"></i>
-          <p>Zadání ke stažení</p>
-          <i class="fas fa-download"></i>
-        </a>
-        <a href="../files/purkiada10/zaznamovy-list-2019.pdf" target="_blank">
-          <i class="fas fa-file-pdf"></i>
-          <p>Záznamový list ke stažení</p>
-          <i class="fas fa-download"></i>
-        </a>
-      </div>
-      <div class="rocnik-headline">
-        <p><i class="fas fa-tasks"></i>Úlohy</p>
-        <hr>
-      </div>
-      <div class="rocnik-ulohy">
-        <div>
-          <p>Vstupní zkouška</p>
-          <a href=""><i class="fas fa-link"></i>Přejít na stránku úlohy<br><span>(stránka není dostupná)</span></a>
-        </div>
-        <div>
-          <p>Hack test</p>
-          <a href=""><i class="fas fa-link"></i>Přejít na stránku úlohy<br><span>(stránka není dostupná)</span></a>
-        </div>
-        <div>
-          <p>Matrix Quiz</p>
-          <a href=""><i class="fas fa-link"></i>Přejít na stránku úlohy<br><span>(stránka není dostupná)</span></a>
-        </div>
-        <div>
-          <p>Gamebook</p>
-          <a href="https://www.skulaurun.eu/gamebook/" target="_blank"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>
-        </div>
-        <div>
-          <p>Konzolová aplikace</p>
-          <a href=""><i class="fas fa-cloud-download-alt"></i>Přejít na stránku se souborem<br><span>(soubor není dostupná)</span></a>
-          <a href="https://bit.ly/nevimto1" target="_blank"><i class="fas fa-question-circle"></i>Nápověda 1</a>
-          <a href="https://bit.ly/nevimto2" target="_blank"><i class="fas fa-question-circle"></i>Nápověda 2</a>
-        </div>
-        <div>
-          <p>Matrixové Programování</p>
-          <a href="../files/purkiada10/MatrixoveProgramovani.exe"><i class="fas fa-download"></i>Stáhnout soubor</a>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="/img/icon.ico">
+  <script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+  <script src="/js/jquery-3.4.1.min.js"></script>
+
+  <script src="/js/API.js"></script>
+  <script src="/js/select2.min.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="/" class="logo"><img src="/img/purkiada_logo.svg"></a>
+    <i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
+    <ul>
+      <li>
+        <a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i class="fas fa-times fa-lg"></i></a>
+      </li>
+      <li>
+        <a href="/"><i class="fas fa-home"></i>Hlavní strana</a>
+      </li>
+      <li>
+        <a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
+      </li>
+      <li>
+        <a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="rocnik-mainheadline">
+      <p>﻿Purkiáda 2019</p>
+      <img src="../img/zadani/banner/matrix.jpg">
+    </div>
+    <div class="rocnik-headline">
+      <p><i class="fas fa-info-circle"></i>Informace o ročníku</p>
+      <hr>
+    </div>
+    <div class="rocnik-info">
+      <p>10. ročník <span>Purkiády</span></p>
+      <p><span>Rok:</span> 2019</p>
+      <p><span>Téma:</span> Matrix</p>
+    </div>
+    <div class="rocnik-headline">
+      <p><i class="fas fa-file-download"></i>Soubory ke stažení</p>
+      <hr>
+    </div>
+    <div class="rocnik-soubory">
+      <a href="../files/purkiada10/zadani-2019.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <p>Zadání ke stažení</p>
+        <i class="fas fa-download"></i>
+      </a>
+      <a href="../files/purkiada10/zaznamovy-list-2019.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <p>Záznamový list ke stažení</p>
+        <i class="fas fa-download"></i>
+      </a>
+    </div>
+    <div class="rocnik-headline">
+      <p><i class="fas fa-tasks"></i>Úlohy</p>
+      <hr>
+    </div>
+    <div class="rocnik-ulohy">
+      <div>
+        <p>Vstupní zkouška</p>
+        <a href="../matrix10/uloha1"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>
+        <div style="color: white; margin: 0 0 0 0; text-align: center;">
+          <span><i class="fas fa-lock"></i> Libovolné jméno</span>
         </div>
       </div>
-      <div class="rocnik-headline">
-        <p><i class="fas fa-poll-h"></i>Výsledky</p>
-        <hr>
+      <div>
+        <p>Hack test</p>
+        <a href="../matrix10/uloha2" target="_blank"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>
+        <a href="../matrix10/uloha2-bjs" target="_blank"><i class="fas fa-question-circle"></i>Nápověda 1</a>
+        <div style="color: white; margin: 0 0 0 0; text-align: center;">
+          <span><i class="fas fa-lock"></i> Udělejte si registraci</span>
+        </div>
       </div>
-      <iframe src="../files/purkiada10/purkiada2019-vysledky.pdf" width="100%" height="640px">
-      </iframe>
-    </main>
-    <footer>
-      <div class="copyright">
-        <img src="../img/ssplogo.svg">
-        <p>© 2019 Střední průmyslová škola Brno, Purkyňova, příspěvková organizace</p>
+      <div>
+        <p>Matrix Quiz</p>
+        <a href="../matrix10/uloha3"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>
+        <div style="color: white; margin: 0 0 0 0; text-align: center;">
+          <span><i class="fas fa-user"></i>&nbsp;User:&nbsp;test</span>
+          <span><i class="fas fa-key"></i>&nbsp;Password:&nbsp;test</span>
+        </div>
       </div>
-      <div class="social-icons">
-        <a href="https://www.facebook.com/sspbrno"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/Purkynka"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.sspbrno.cz/"><i class="fas fa-globe"></i></a>
+      <div>
+        <p>Gamebook</p>
+        <a href="//www.skulaurun.eu/gamebook/" target="_blank"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>
+        <div style="color: white; margin: 0 0 0 0; text-align: center;">
+          <span><i class="fas fa-lock"></i> Libovolné jméno a heslo</span>
+        </div>
       </div>
-    </footer>
-  </body>
+      <div>
+        <p>Konzolová aplikace</p>
+        <a href="../files/purkiada10/purkiada-client_test.exe"><i class="fas fa-download"></i>Stáhnout soubor</a>
+        <a href="//bit.ly/nevimto1" target="_blank"><i class="fas fa-question-circle"></i>Nápověda 1</a>
+        <a href="//bit.ly/nevimto2" target="_blank"><i class="fas fa-question-circle"></i>Nápověda 2</a>
+        <div style="color: white; margin: 0 0 0 0; text-align: center;">
+          <span><i class="fas fa-user"></i>&nbsp;User:&nbsp;test</span>
+          <span><i class="fas fa-key"></i>&nbsp;Password:&nbsp;test</span>
+        </div>
+      </div>
+      <div>
+        <p>Matrixové Programování</p>
+        <a href="../files/purkiada10/MatrixoveProgramovani.exe"><i class="fas fa-download"></i>Stáhnout soubor</a>
+      </div>
+    </div>
+    <div class="rocnik-headline">
+      <p><i class="fas fa-poll-h"></i>Výsledky</p>
+      <hr>
+    </div>
+    <iframe src="../files/purkiada10/purkiada2019-vysledky.pdf" width="100%" height="640px">
+    </iframe>
+  </main>
+  <footer>
+    <div class="copyright">
+      <img src="../img/ssplogo.svg">
+      <p>© 2019 Střední průmyslová škola Brno, Purkyňova, příspěvková organizace</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/sspbrno"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/Purkynka"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.sspbrno.cz/"><i class="fas fa-globe"></i></a>
+    </div>
+  </footer>
+</body>
+
 </html>
