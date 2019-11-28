@@ -40,10 +40,12 @@
       <h2><i class="fas fa-file-signature"></i>Přihláška</h2>
       <hr>
     </div>
-    <p style="max-width: 75vw; margin: auto; ">Je potřeba vyplnit základní osobní údaje a údaje o škole na které aktuálně jste. Jako email
-      použijte email žáka, možná se na něj bude muset v průběhu soutěže přihlásit! Na zadaný e-mail vám
-      přijde potvrzující zpráva. Nezapomeňte e-mail potvrdit! Pokud vám potvrzovací e-mail nedošel, pošlete zprávu na
-      adresu: lenka.hruskova@sspbrno.cz. Pokud Vaše škola není v nabídce, tak nás prosím kontaktujte na emailu.</p>
+    <p style="max-width: 75vw; margin: auto; " id="description">Je potřeba vyplnit základní osobní údaje a údaje o škole
+      na které
+      aktuálně jste. Jako email
+      použijte email žáka, možná se na něj bude muset v průběhu soutěže přihlásit! Na zadaný e-mail Vám
+      přijde potvrzující zpráva. Nezapomeňte email potvrdit! Pokud vám potvrzovací e-mail nepřijde, pošlete zprávu na
+      adresu: lenka.hruskova@sspbrno.cz. Pokud Vaše škola není v nabídce, tak nás prosím kontaktujte emailem.</p>
     <form class="prihlaska" id="prihlaska-form">
       <div>
         <i class="fas fa-user-circle fa-fw"></i>
@@ -71,10 +73,12 @@
       </div>
       <button id="prihlaska-submit" type="submit" name="sumbit"><i class="fas fa-clipboard-check"></i>Přihlásit
         se</button>
+      <p style="margin: auto;">Okresy a školy jsou přebrány z otevřených dat Ministerstva školství.</p>
     </form>
 
     <script>
       $(document).ready(() => {
+        $('#description').after($('<p style="margin: auto; ">Momentálně máme přihlášeno <span id="countOfStudents">X</span> z maximálního počtu 100 studentů.</p>'));
         var $selectVillage = $("#prihlaska-select-village");
         var $selectSchool = $("#prihlaska-select-school");
         var $prihlaska = $("#prihlaska-form");
@@ -88,6 +92,10 @@
 
 
         /// LOAD
+        API.getStudentsCount((countOfStudents) => {
+          $('#countOfStudents').html(countOfStudents);
+        });
+
         $selectVillage.html(`<option selected="selected" value>Načítání...</option>`);
         $selectVillage.prop("disabled", true);
         API.getVillages().done((villages) => {

@@ -18,4 +18,8 @@ var API = {
   confirmStudent: function (data) {
     return $.get(`${this.endpoint}/student/confirm`, data, "json");
   },
+
+  getStudentsCount: function (data) {
+    return $.get(`${this.endpoint}/students/count`, data, "json");
+  }
 }
