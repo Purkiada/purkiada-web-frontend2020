@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="shortcut icon" href="/img/icon.ico">
-  <script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+  <script src="/js/fa-kit.js"></script>
   <script src="/js/jquery-3.4.1.min.js"></script>
 
   <script src="/js/API.js"></script>
@@ -78,7 +78,6 @@
 
     <script>
       $(document).ready(() => {
-        $('#description').after($('<p style="margin: auto; ">Momentálně máme přihlášeno <span id="countOfStudents">X</span> z maximálního počtu 100 studentů.</p>'));
         var $selectVillage = $("#prihlaska-select-village");
         var $selectSchool = $("#prihlaska-select-school");
         var $prihlaska = $("#prihlaska-form");
@@ -93,6 +92,7 @@
 
         /// LOAD
         API.getStudentsCount((countOfStudents) => {
+          $('#description').append(' Momentálně máme přihlášeno <span id="countOfStudents">X</span> z maximálního počtu 100 studentů.');
           $('#countOfStudents').html(countOfStudents);
         });
 

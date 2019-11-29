@@ -4,7 +4,7 @@ head: |
 
   \t\t<link rel="stylesheet" href="/css/style.css">
   \t\t<link rel="shortcut icon" href="/img/icon.ico">
-  \t\t<script src="https://kit.fontawesome.com/587e1bb811.js" crossorigin="anonymous"></script>
+  \t\t<script src="/js/fa-kit.js"></script>
   \t\t<script src="/js/jquery-3.4.1.min.js"></script>
 
   \t\t<script src="/js/API.js"></script>
