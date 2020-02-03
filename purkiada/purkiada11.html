@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <title>Historie zadání | Purkiáda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/select2.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/icon.ico">
+    <script src="/js/fa-kit.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+
+    <script src="/js/API.js"></script>
+    <script src="/js/select2.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="/" class="logo"><img src="/img/purkiada_logo.svg"></a>
+        <i id="nav-toggle" class="fas fa-bars" onClick="$(this).parent().children('ul').toggleClass('show')"></i>
+        <ul>
+            <li>
+                <a id="nav-close" onClick="$(this).parent().parent().removeClass('show')"><i
+                        class="fas fa-times fa-lg"></i></a>
+            </li>
+            <li>
+                <a href="/"><i class="fas fa-home"></i>Hlavní strana</a>
+            </li>
+            <li>
+                <a href="/prihlaska.html"><i class="fas fa-file-signature"></i>Přihláška</a>
+            </li>
+            <li>
+                <a href="/zadani.html"><i class="fas fa-history"></i>Historie zadání</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="rocnik-mainheadline"
+            style="background: linear-gradient( rgba(20, 20, 20, .25), rgba(20, 20, 20, .5));">
+            <p style="text-shadow: 2px 2px 2px green;">Purkiáda 2020</p>
+            <img src="../img/zadani/rick_and_morty.jpg">
+        </div>
+        <div class="rocnik-headline">
+            <p><i class="fas fa-info-circle"></i>Informace o ročníku</p>
+            <hr>
+        </div>
+        <div class="rocnik-info">
+            <p>11. ročník <span>Purkiády</span></p>
+            <p><span>Rok:</span> 2020</p>
+            <p><span>Téma:</span> Rick and Morty</p>
+        </div>
+        <!--    <div class="rocnik-headline">
+      <p><i class="fas fa-file-download"></i>Soubory ke stažení</p>
+      <hr>
+    </div>
+    <div class="rocnik-soubory">
+      <a href="../files/purkiada10/zadani-2020.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <p>Zadání</p>
+        <i class="fas fa-download"></i>
+      </a>
+      <!- - <a href="../files/purkiada10/zaznamovy-list-2020.pdf" target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <p>Záznamový list</p>
+        <i class="fas fa-download"></i>
+      </a>-  >
+    </div>-->
+        <div class="rocnik-headline">
+            <p><i class="fas fa-tasks"></i>Úlohy</p>
+            <hr>
+        </div>
+        <div class="rocnik-soubory">
+            <a href="../files/purkiada11/zadani-2020.pdf" target="_blank">
+                <i class="fas fa-file-pdf"></i>
+                <p>Zadání ke stažení</p>
+                <i class="fas fa-download"></i>
+            </a>
+        </div>
+        <div class="rocnik-ulohy">
+            <div>
+                <p>1. Quiz</p>
+                <a href="//forms.gle/GZmiu2C4zKZ6KTbJ9" target="_blank"><i class="fas fa-link"></i>Přejít na stránku
+                    úlohy</a>
+                <!--<a href="//quiz.lukasmatuska.cz/" target="_blank"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>-->
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <!--<span><i class="fas fa-lock"></i> Udělejte si registraci</span>-->
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+                <!--<div style="color: white; margin: 0 0 0 0; text-align: center;">
+          <span><i class="fas fa-user"></i>&nbsp;User:&nbsp;test</span>
+          <span><i class="fas fa-key"></i>&nbsp;Password:&nbsp;test</span>
+	</div>-->
+            </div>
+            <div>
+                <p>2. Hack test</p>
+                <a href="../rick-and-morty/uloha2" target="_blank"><i class="fas fa-link"></i>Přejít na stránku
+                    úlohy</a>
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+            </div>
+            <div>
+                <p>3. Oprava ztroskotané lodi</p>
+                <a href="//www.skulaurun.eu/gamebook2/" target="_blank"><i class="fas fa-link"></i>Přejít na stránku
+                    úlohy</a>
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+            </div>
+            <div>
+                <p>4. Logické hádanky</p>
+                <a href="../rick-and-morty/uloha4" target="_blank"><i class="fas fa-link"></i>Přejít na stránku
+                    úlohy</a>
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+            </div>
+            <div>
+                <p>5. Rickgramování</p>
+                <a href="//purkiada.zhincore.eu/" target="_blank"><i class="fas fa-link"></i>Přejít na stránku úlohy</a>
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+            </div>
+            <div>
+                <p>6. Šifry</p>
+                <a href="../rick-and-morty/uloha7" target="_blank"><i class="fas fa-link"></i>Přejít na stránku
+                    úlohy</a>
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+            </div>
+            <div>
+                <p>Anketa</p>
+                <a href="//forms.gle/5eeunTeG6C1po8VV9" target="_blank"><i class="fas fa-link"></i>Přejít na stránku
+                    úlohy</a>
+                <div style="color: white; margin: 0 0 0 0; text-align: center;">
+                    <span><i class="fas fa-lock"></i> Použijte přidělené údaje</span>
+                </div>
+            </div>
+        </div>
+        <div class="rocnik-headline">
+            <p><i class="fas fa-poll-h"></i>Výsledky</p>
+            <hr>
+        </div>
+        <iframe src="../files/purkiada11/purkiada2020-vysledky.pdf" width="100%" height="640px">
+        </iframe>
+    </main>
+    <footer>
+        <div class="copyright">
+            <img src="../img/ssplogo.svg">
+            <p>© 2020 Střední průmyslová škola Brno, Purkyňova, příspěvková organizace</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/sspbrno"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Purkynka"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.sspbrno.cz/"><i class="fas fa-globe"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
