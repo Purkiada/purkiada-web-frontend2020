@@ -103,9 +103,16 @@ nav{
   width: 20%;
 }
 nav .logo{
-  width: 74%;
+  width: 100%;
   height: auto;
-  margin: 0 auto 75px auto;
+  margin: 50px auto auto auto;
+  display: flex;
+  justify-content: center;
+}
+nav .logo img{
+  height: 76%;
+  width: 76%;
+  margin: 0 auto;
 }
 nav ul{
   list-style: none;

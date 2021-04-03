@@ -295,14 +295,16 @@ footer .social-icons a:hover, footer .social-icons a:focus {
   flex-direction: row;
   justify-content: center;
   position: relative;
-  width: 100%;
+  width: 90vw;
   height: 256px;
+  padding: 20px;
 }
 
 .rocnik-mainheadline p {
-  margin: 75px auto;
+  /* margin: 75px auto; */
+  margin: 25px auto;
   text-align: center;
-  font-size: 64px;
+  font-size: 8vw;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -310,6 +312,7 @@ footer .social-icons a:hover, footer .social-icons a:focus {
   color: #14a25f;
   border: #14a25f 10px solid;
   padding: 10px;
+  width: 80%;
 }
 
 .rocnik-mainheadline img {
